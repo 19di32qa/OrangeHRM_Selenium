@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-22T13:38:13 CAST" name="All Test Suite" finished-at="2022-11-22T13:38:22 CAST" duration-ms="9433">
+    <groups>
+    </groups>
+    <test started-at="2022-11-22T13:38:13 CAST" name="C:/Users/Dima/Desktop/OrangeHRM" finished-at="2022-11-22T13:38:22 CAST" duration-ms="9433">
+      <class name="OrangeHPM.TestCases.TC_0001_Login">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:OrangeHPM.TestCases.TC_0001_Login@495b0487]" started-at="2022-11-22T13:38:13 CAST" name="SetUp" finished-at="2022-11-22T13:38:15 CAST" duration-ms="1732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:OrangeHPM.TestCases.TC_0001_Login@495b0487]" started-at="2022-11-22T13:38:15 CAST" name="loginTest" data-provider="userCredentials" finished-at="2022-11-22T13:38:22 CAST" duration-ms="7491" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:OrangeHPM.TestCases.TC_0001_Login@495b0487]" started-at="2022-11-22T13:38:22 CAST" name="TearDown" finished-at="2022-11-22T13:38:22 CAST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- OrangeHPM.TestCases.TC_0001_Login -->
+    </test> <!-- C:/Users/Dima/Desktop/OrangeHRM -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

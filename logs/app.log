@@ -1,0 +1,60 @@
+2022-11-22 13:12:54,785 INFO o.t.i.Utils [main] [TestNG] Running:
+  C:\Users\Dima\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-11-22 13:12:56,632 INFO O.P.BaseClass [main] WebDriver is set
+2022-11-22 13:13:28,471 INFO o.t.i.Utils [main] [TestNG] Running:
+  C:\Users\Dima\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-11-22 13:13:30,092 INFO O.P.BaseClass [main] WebDriver is set
+2022-11-22 13:13:30,127 INFO O.P.BaseClass [main] WebDriver is set
+2022-11-22 13:28:26,801 INFO o.t.i.Utils [main] [TestNG] Running:
+  C:\Users\Dima\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-11-22 13:28:28,707 INFO O.P.BaseClass [main] WebDriver is set
+2022-11-22 13:30:00,213 INFO o.t.i.Utils [main] [TestNG] Running:
+  C:\Users\Dima\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-11-22 13:30:02,013 INFO O.P.BaseClass [main] WebDriver is set
+2022-11-22 13:34:21,844 INFO o.t.i.Utils [main] [TestNG] Running:
+  C:\Users\Dima\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-11-22 13:34:23,556 INFO O.P.BaseClass [main] WebDriver is set
+2022-11-22 13:38:13,224 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-11-22 13:38:13,232 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2022-11-22 13:38:13,234 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-11-22 13:38:13,234 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-11-22 13:38:13,237 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+2022-11-22 13:38:13,251 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.sortMethods() took 14 ms.
+2022-11-22 13:38:13,252 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-11-22 13:38:13,252 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-11-22 13:38:13,253 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-11-22 13:38:13,253 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-11-22 13:38:13,253 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-11-22 13:38:13,253 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-11-22 13:38:13,254 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-11-22 13:38:13,254 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-11-22 13:38:13,254 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-11-22 13:38:13,254 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-11-22 13:38:13,256 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-11-22 13:38:13,257 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-11-22 13:38:13,257 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-11-22 13:38:13,257 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-11-22 13:38:13,259 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-11-22 13:38:13,259 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-11-22 13:38:13,260 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2022-11-22 13:38:13,261 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-11-22 13:38:13,262 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-11-22 13:38:13,263 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2022-11-22 13:38:13,264 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-11-22 13:38:13,264 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-11-22 13:38:13,265 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-11-22 13:38:13,265 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-11-22 13:38:15,013 INFO O.P.BaseClass [main] WebDriver is set
+2022-11-22 13:38:15,020 INFO o.t.i.Utils [main] [Utils] DynamicGraphHelper.createDynamicGraph() took 2 ms.
+2022-11-22 13:38:22,732 INFO o.t.i.Utils [main] [TestNG] Time taken by org.testng.internal.ExitCodeListener@1fac1d5c: 0 ms
+2022-11-22 13:38:22,748 INFO o.t.i.Utils [main] [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@2ba5aa7a: 15 ms
+2022-11-22 13:38:22,790 INFO o.t.i.Utils [main] [TestNG] Time taken by org.testng.reporters.jq.Main@1f11f64e: 41 ms
+2022-11-22 13:38:22,790 INFO o.t.i.Utils [main] [TestNG] Time taken by org.testng.reporters.FailedReporter@2b2f5fcf: 0 ms
+2022-11-22 13:38:22,796 INFO o.t.i.Utils [main] [TestNG] Time taken by org.testng.reporters.XMLReporter@312b34e3: 6 ms
+2022-11-22 13:38:22,802 INFO o.t.i.Utils [main] [TestNG] Time taken by org.testng.reporters.EmailableReporter2@1e0895f5: 6 ms
+2022-11-22 13:38:22,806 INFO o.t.i.Utils [main] [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@6726cc69: 3 ms
