@@ -58,3 +58,101 @@
 2022-11-22 13:38:22,796 INFO o.t.i.Utils [main] [TestNG] Time taken by org.testng.reporters.XMLReporter@312b34e3: 6 ms
 2022-11-22 13:38:22,802 INFO o.t.i.Utils [main] [TestNG] Time taken by org.testng.reporters.EmailableReporter2@1e0895f5: 6 ms
 2022-11-22 13:38:22,806 INFO o.t.i.Utils [main] [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@6726cc69: 3 ms
+2022-11-22 14:03:31,182 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2022-11-22 14:03:31,189 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.sortMethods() took 3 ms.
+2022-11-22 14:03:31,190 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-11-22 14:03:31,191 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-11-22 14:03:31,194 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+2022-11-22 14:03:31,205 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.sortMethods() took 11 ms.
+2022-11-22 14:03:31,206 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-11-22 14:03:31,206 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-11-22 14:03:31,207 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-11-22 14:03:31,207 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-11-22 14:03:31,207 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-11-22 14:03:31,207 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-11-22 14:03:31,208 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-11-22 14:03:31,208 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-11-22 14:03:31,208 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-11-22 14:03:31,208 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-11-22 14:03:31,210 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-11-22 14:03:31,210 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-11-22 14:03:31,211 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-11-22 14:03:31,211 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-11-22 14:03:31,212 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-11-22 14:03:31,212 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-11-22 14:03:31,213 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2022-11-22 14:03:31,214 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2022-11-22 14:03:31,215 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-11-22 14:03:31,215 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-11-22 14:03:31,216 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-11-22 14:03:31,217 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2022-11-22 14:03:31,217 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-11-22 14:03:31,217 INFO o.t.i.Utils [main] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-11-22 14:03:31,220 INFO o.t.i.Utils [main] [TestNG] Running:
+  C:\Users\Dima\Desktop\OrangeHRM\testng.xml
+
+2022-11-22 14:03:33,064 INFO O.P.BaseClass [main] WebDriver is set
+2022-11-22 14:03:33,070 INFO o.t.i.Utils [main] [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+2022-11-22 14:03:43,888 INFO o.t.i.Utils [main] [TestNG] Time taken by org.testng.reporters.EmailableReporter@e8e0dec: 9 ms
+2022-11-22 14:03:43,888 INFO o.t.i.Utils [main] [TestNG] Time taken by org.testng.reporters.FailedReporter@12d1f1d4: 0 ms
+2022-11-22 14:03:43,888 INFO o.t.i.Utils [main] [TestNG] Time taken by org.testng.internal.ExitCodeListener@75fa1be3: 0 ms
+2022-11-23 13:34:55,532 INFO o.t.i.Utils [main] [TestNG] Running:
+  C:\Users\Dima\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-11-23 13:34:58,697 INFO O.P.BaseClass [main] WebDriver is set
+2022-11-23 13:37:54,826 INFO o.t.i.Utils [main] [TestNG] Running:
+  C:\Users\Dima\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-11-23 13:37:57,234 INFO O.P.BaseClass [main] WebDriver is set
+2022-11-23 13:40:02,916 INFO o.t.i.Utils [main] [TestNG] Running:
+  C:\Users\Dima\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-11-23 13:40:05,182 INFO O.P.BaseClass [main] WebDriver is set
+2022-11-23 13:42:47,941 INFO o.t.i.Utils [main] [TestNG] Running:
+  C:\Users\Dima\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-11-23 13:42:50,374 INFO O.P.BaseClass [main] WebDriver is set
+2022-11-23 14:08:51,406 INFO o.t.i.Utils [main] [TestNG] Running:
+  C:\Users\Dima\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-11-23 14:08:54,081 INFO O.P.BaseClass [main] WebDriver is set
+2022-11-23 14:10:59,097 INFO o.t.i.Utils [main] [TestNG] Running:
+  C:\Users\Dima\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-11-23 14:11:01,420 INFO O.P.BaseClass [main] WebDriver is set
+2022-11-23 14:11:39,580 INFO o.t.i.Utils [main] [TestNG] Running:
+  C:\Users\Dima\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-11-23 14:11:41,867 INFO O.P.BaseClass [main] WebDriver is set
+2022-11-23 14:13:28,003 INFO o.t.i.Utils [main] [TestNG] Running:
+  C:\Users\Dima\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-11-23 14:13:31,138 INFO O.P.BaseClass [main] WebDriver is set
+2022-11-23 14:14:49,863 INFO o.t.i.Utils [main] [TestNG] Running:
+  C:\Users\Dima\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-11-23 14:14:51,938 INFO O.P.BaseClass [main] WebDriver is set
+2022-11-23 14:15:42,521 INFO o.t.i.Utils [main] [TestNG] Running:
+  C:\Users\Dima\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-11-23 14:15:44,569 INFO O.P.BaseClass [main] WebDriver is set
+2022-11-23 14:16:31,061 INFO o.t.i.Utils [main] [TestNG] Running:
+  C:\Users\Dima\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-11-23 14:16:33,140 INFO O.P.BaseClass [main] WebDriver is set
+2022-11-23 14:18:19,031 INFO o.t.i.Utils [main] [TestNG] Running:
+  C:\Users\Dima\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-11-23 14:18:21,112 INFO O.P.BaseClass [main] WebDriver is set
+2022-11-23 14:43:46,813 INFO o.t.i.Utils [main] [TestNG] Running:
+  C:\Users\Dima\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-11-23 14:43:48,608 INFO O.P.BaseClass [main] WebDriver is set
+2022-11-23 14:44:30,249 INFO o.t.i.Utils [main] [TestNG] Running:
+  C:\Users\Dima\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-11-23 14:44:31,957 INFO O.P.BaseClass [main] WebDriver is set
+2022-11-23 14:47:01,800 INFO o.t.i.Utils [main] [TestNG] Running:
+  C:\Users\Dima\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-11-23 14:47:03,409 INFO O.P.BaseClass [main] WebDriver is set

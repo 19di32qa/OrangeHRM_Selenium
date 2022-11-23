@@ -9,19 +9,30 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
 public class LoginPage {
-    private static final String url = "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
+    public final String url = "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
     WebDriver driver;
     public LoginPage(WebDriver driver) {
         this.driver =driver;
     }
+
     public void getPage() {
         driver.navigate().to(url);
     }
+
+    public void setUsername(String name) {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.name("username"))).sendKeys(name);
+    }
+    public void setPassword(String password) {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.name("password"))).sendKeys(password);
+    }
+
+
     public WebElement getUserName() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         return wait.until(ExpectedConditions.presenceOfElementLocated(By.name("username")));
     }
-
     public WebElement getPassword() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         return wait.until(ExpectedConditions.presenceOfElementLocated(By.name("password")));
@@ -30,5 +41,9 @@ public class LoginPage {
     public WebElement getLoginBTN() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         return wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//button[@type=\"submit\"]")));
+    }
+    public WebElement getContentError() {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        return wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(".oxd-alert-content--error p")));
     }
 }

@@ -17,6 +17,12 @@ public class BaseClass {
         Logger logger = LoggerFactory.getLogger(BaseClass.class);
         logger.info("WebDriver is set");
     }
+    public String getUserName() {
+        return "Admin";
+    }
+    public String getPassword() {
+        return "admin123";
+    }
     //@Test
     public void testStuff(){
         System.out.println(System.getProperty("user.dir"));

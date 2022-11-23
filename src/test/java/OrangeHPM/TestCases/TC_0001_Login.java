@@ -17,8 +17,10 @@ public class TC_0001_Login extends BaseClass {
         lp.getPage();
         Assert.assertEquals(driver.getCurrentUrl(),"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
         //Thread.sleep(3000);
-        lp.getUserName().sendKeys(name);
-        lp.getPassword().sendKeys(password);
+        //lp.getUserName().sendKeys(name);
+        //lp.getPassword().sendKeys(password);
+        lp.setUsername(name);
+        lp.setPassword(password);
         lp.getLoginBTN().click();
         Assert.assertEquals(driver.getCurrentUrl(),"https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index");
         Assert.assertEquals(driver.getTitle(),"OrangeHRM");
