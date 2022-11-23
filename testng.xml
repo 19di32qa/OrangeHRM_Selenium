@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="C:/Users/Dima/Desktop/OrangeHRM">
+    <test verbose="2" thread-count="2" parallel="classes" preserve-order="true" name="C:/Users/Dima/Desktop/OrangeHRM">
         <classes>
             <class name="OrangeHPM.TestCases.TC_0001_Login">
                 <methods>
                     <include name="loginTest"/>
+                </methods>
+            </class>
+            <class name="OrangeHPM.TestCases.TC_0002_Login_Logout">
+                <methods>
+                    <include name="logOutTest"/>
+                </methods>
+            </class>
+            <class name="OrangeHPM.TestCases.TC_0003_Login_DD">
+                <methods>
+                    <include name="loginDDT"/>
                 </methods>
             </class>
         </classes>
