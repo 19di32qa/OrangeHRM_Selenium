@@ -12,6 +12,7 @@ public class BaseClass {
     public void SetUp() {
         System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"/src/main/resources/chromedriver.exe");
         driver = new ChromeDriver();
+        driver.manage().window().maximize();
         Logger logger = LoggerFactory.getLogger(BaseClass.class);
         logger.info("WebDriver is set");
     }

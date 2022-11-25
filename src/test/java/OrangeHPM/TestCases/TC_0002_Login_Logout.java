@@ -22,5 +22,6 @@ public class TC_0002_Login_Logout extends BaseClass {
         dashboard.getLogoutListElement().click();
         Assert.assertEquals(driver.getCurrentUrl(),lp.url);
 
+
     }
 }
