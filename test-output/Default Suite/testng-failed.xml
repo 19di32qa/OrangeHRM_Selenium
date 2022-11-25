@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="OrangeHRM(failed)">
     <classes>
-      <class name="OrangeHPM.TestCases.TC_0003_Login_DD">
+      <class name="OrangeHPM.TestCases.TC_0008_Add_Employee">
         <methods>
-          <include name="testSheet"/>
+          <include name="addEmployeeTest" invocation-numbers="1"/>
           <include name="TearDown"/>
           <include name="SetUp"/>
         </methods>
-      </class> <!-- OrangeHPM.TestCases.TC_0003_Login_DD -->
+      </class> <!-- OrangeHPM.TestCases.TC_0008_Add_Employee -->
     </classes>
   </test> <!-- OrangeHRM(failed) -->
 </suite> <!-- Failed suite [Default Suite] -->

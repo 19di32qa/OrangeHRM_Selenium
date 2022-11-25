@@ -1,22 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="C:/Users/Dima/Desktop/OrangeHRM(failed)">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="OrangeHRM(failed)">
     <classes>
-      <class name="OrangeHPM.TestCases.TC_0002_Login_Logout">
+      <class name="OrangeHPM.TestCases.TC_0008_Add_Employee">
         <methods>
-          <include name="TearDown"/>
-          <include name="logOutTest"/>
-          <include name="SetUp"/>
-        </methods>
-      </class> <!-- OrangeHPM.TestCases.TC_0002_Login_Logout -->
-      <class name="OrangeHPM.TestCases.TC_0003_Login_DD">
-        <methods>
+          <include name="addEmployeeTest" invocation-numbers="1"/>
           <include name="TearDown"/>
           <include name="SetUp"/>
-          <include name="loginDDT" invocation-numbers="0 1 2 3"/>
         </methods>
-      </class> <!-- OrangeHPM.TestCases.TC_0003_Login_DD -->
+      </class> <!-- OrangeHPM.TestCases.TC_0008_Add_Employee -->
     </classes>
-  </test> <!-- C:/Users/Dima/Desktop/OrangeHRM(failed) -->
-</suite> <!-- Failed suite [All Test Suite] -->
+  </test> <!-- OrangeHRM(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
