@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="OrangeHRM(failed)">
     <classes>
-      <class name="OrangeHPM.TestCases.TC_0010_EditUser">
+      <class name="OrangeHPM.TestCases.TC_0013_LeaveApprove">
         <methods>
-          <include name="TearDown"/>
+          <include name="leaveApproveTest"/>
           <include name="SetUp"/>
-          <include name="editUserTest" invocation-numbers="0 1"/>
         </methods>
-      </class> <!-- OrangeHPM.TestCases.TC_0010_EditUser -->
+      </class> <!-- OrangeHPM.TestCases.TC_0013_LeaveApprove -->
     </classes>
   </test> <!-- OrangeHRM(failed) -->
 </suite> <!-- Failed suite [Default Suite] -->

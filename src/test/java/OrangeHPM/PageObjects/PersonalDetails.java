@@ -16,6 +16,24 @@ public class PersonalDetails extends BaseClass{
     private final By middleName = By.name("middleName");
     private final By lastName = By.name("lastName");
     private final By SaveBTN = By.cssSelector(".oxd-button.oxd-button--medium.oxd-button--secondary.orangehrm-left-space");
+    private final By banner = By.cssSelector(".oxd-toast.oxd-toast--success.oxd-toast-container--toast");
+
+    public WebElement getMiddleName() {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        return wait.until(ExpectedConditions.presenceOfElementLocated(middleName));
+    }
+    public WebElement getLastName() {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        return wait.until(ExpectedConditions.presenceOfElementLocated(lastName));
+    }
+    public WebElement getFirstName() {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        return wait.until(ExpectedConditions.presenceOfElementLocated(firstName));
+    }
+    public WebElement getBanner() {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        return wait.until(ExpectedConditions.presenceOfElementLocated(banner));
+    }
 
 
     public void setFirstName(String name) {
