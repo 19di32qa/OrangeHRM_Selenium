@@ -16,6 +16,9 @@ public class AdminPage {
         this.driver =driver;
     }
 
+    public By organizationDropDown = By.xpath("//span[contains(text(),\"Organization\")]");
+    public By locationsLink = By.partialLinkText("Locations");
+
     public By addBTN = By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div[2]/div[1]/button");
     public By userRole = By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[1]/div/div[2]/div/div");
     public By status = By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[3]/div/div[2]/div/div");
@@ -30,7 +33,14 @@ public class AdminPage {
     public By employee = By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[2]/div/div[2]/div/div[2]/div/span");
 
 
-
+    public WebElement getOrganizationDropDown() {
+        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
+        return wait.until(ExpectedConditions.presenceOfElementLocated(organizationDropDown));
+    }
+    public WebElement getLocationsLink() {
+        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
+        return wait.until(ExpectedConditions.presenceOfElementLocated(locationsLink));
+    }
     public WebElement getAddBtn() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         return wait.until(ExpectedConditions.presenceOfElementLocated(addBTN));

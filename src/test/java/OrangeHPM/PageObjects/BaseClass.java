@@ -28,8 +28,8 @@ public class BaseClass {
         Logger logger = LoggerFactory.getLogger(BaseClass.class);
         logger.info("WebDriver is set");
     }
-//    @AfterClass
-//    public void TearDown() {
-//        driver.quit();
-//    }
+    @AfterClass
+    public void TearDown() {
+        driver.quit();
+    }
 }

@@ -14,9 +14,20 @@ public class PimPage {
         this.driver = driver;
     }
     private final By addBTN = By.cssSelector(".orangehrm-paper-container .oxd-button");
+    private final  By configurationsDropDown = By.xpath("//*[contains(text(),\"Config\")]");
+    private By customFields = By.partialLinkText("Custom Fields");
 
     public WebElement getAddBTN() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         return wait.until(ExpectedConditions.presenceOfElementLocated(addBTN));
     }
+    public WebElement getConfigurationDropdown() {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        return wait.until(ExpectedConditions.presenceOfElementLocated(configurationsDropDown));
+    }
+    public WebElement getCustomFieldsLink() {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        return wait.until(ExpectedConditions.presenceOfElementLocated(customFields));
+    }
+
 }

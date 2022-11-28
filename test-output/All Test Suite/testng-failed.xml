@@ -3,20 +3,27 @@
 <suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="C:/Users/Dima/Desktop/OrangeHRM(failed)">
     <classes>
-      <class name="OrangeHPM.TestCases.TC_0002_Login_Logout">
+      <class name="OrangeHPM.TestCases.TC_0009_DeleteEmployeeDDT">
         <methods>
-          <include name="TearDown"/>
-          <include name="logOutTest"/>
-          <include name="SetUp"/>
-        </methods>
-      </class> <!-- OrangeHPM.TestCases.TC_0002_Login_Logout -->
-      <class name="OrangeHPM.TestCases.TC_0003_Login_DD">
-        <methods>
+          <include name="deleteEmployee" invocation-numbers="1"/>
           <include name="TearDown"/>
           <include name="SetUp"/>
-          <include name="loginDDT" invocation-numbers="0 1 2 3"/>
         </methods>
-      </class> <!-- OrangeHPM.TestCases.TC_0003_Login_DD -->
+      </class> <!-- OrangeHPM.TestCases.TC_0009_DeleteEmployeeDDT -->
+      <class name="OrangeHPM.TestCases.TC_0007_Profile">
+        <methods>
+          <include name="TearDown"/>
+          <include name="SetUp"/>
+          <include name="profileTest"/>
+        </methods>
+      </class> <!-- OrangeHPM.TestCases.TC_0007_Profile -->
+      <class name="OrangeHPM.TestCases.TC_0010_EditUser">
+        <methods>
+          <include name="TearDown"/>
+          <include name="SetUp"/>
+          <include name="editUserTest"/>
+        </methods>
+      </class> <!-- OrangeHPM.TestCases.TC_0010_EditUser -->
     </classes>
   </test> <!-- C:/Users/Dima/Desktop/OrangeHRM(failed) -->
 </suite> <!-- Failed suite [All Test Suite] -->

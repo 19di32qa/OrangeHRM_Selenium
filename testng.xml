@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" thread-count="2" parallel="classes" preserve-order="true" name="C:/Users/Dima/Desktop/OrangeHRM">
+    <test verbose="2" preserve-order="true" name="C:/Users/Dima/Desktop/OrangeHRM">
         <classes>
             <class name="OrangeHPM.TestCases.TC_0001_Login">
                 <methods>
@@ -16,6 +16,71 @@
             <class name="OrangeHPM.TestCases.TC_0003_Login_DD">
                 <methods>
                     <include name="loginDDT"/>
+                </methods>
+            </class>
+            <class name="OrangeHPM.TestCases.TC_0004_AddUser">
+                <methods>
+                    <include name="addUserTest"/>
+                </methods>
+            </class>
+            <class name="OrangeHPM.TestCases.TC_0005_MyActions">
+                <methods>
+                    <include name="myActionsDashboardTest"/>
+                </methods>
+            </class>
+            <class name="OrangeHPM.TestCases.TC_0006_QuickLaunchTest">
+                <methods>
+                    <include name="quickLaunchTest"/>
+                </methods>
+            </class>
+            <class name="OrangeHPM.TestCases.TC_0007_Profile">
+                <methods>
+                    <include name="profileTest"/>
+                </methods>
+            </class>
+            <class name="OrangeHPM.TestCases.TC_0008_Add_Employee_DD">
+                <methods>
+                    <include name="addEmployeeTest"/>
+                </methods>
+            </class>
+            <class name="OrangeHPM.TestCases.TC_0009_DeleteEmployeeDDT">
+                <methods>
+                    <include name="deleteEmployee"/>
+                </methods>
+            </class>
+            <class name="OrangeHPM.TestCases.TC_0010_EditUser">
+                <methods>
+                    <include name="editUserTest"/>
+                </methods>
+            </class>
+            <class name="OrangeHPM.TestCases.TC_0011_PersonalDetailsEdit">
+                <methods>
+                    <include name="personalEditTest"/>
+                </methods>
+            </class>
+            <class name="OrangeHPM.TestCases.TC_0012_AddVacancy">
+                <methods>
+                    <include name="addVacancyTest"/>
+                </methods>
+            </class>
+            <class name="OrangeHPM.TestCases.TC_0013_LeaveApprove">
+                <methods>
+                    <include name="leaveApproveTest"/>
+                </methods>
+            </class>
+            <class name="OrangeHPM.TestCases.TC_0014_LeaveReject">
+                <methods>
+                    <include name="rejectTest"/>
+                </methods>
+            </class>
+            <class name="OrangeHPM.TestCases.TC_0015_CreateCustomField">
+                <methods>
+                    <include name="customFieldTest"/>
+                </methods>
+            </class>
+            <class name="OrangeHPM.TestCases.TC_0016_AddLocation">
+                <methods>
+                    <include name="addLocationTest"/>
                 </methods>
             </class>
         </classes>
