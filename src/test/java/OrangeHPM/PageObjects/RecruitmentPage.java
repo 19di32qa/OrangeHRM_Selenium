@@ -14,9 +14,14 @@ public class RecruitmentPage {
         this.driver = driver;
     }
     private By vacancies = By.partialLinkText("Vacancies");
+    private By candidates = By.partialLinkText("Candidates");
 
     public WebElement getVacancies() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         return wait.until(ExpectedConditions.presenceOfElementLocated(vacancies));
+    }
+    public WebElement getCandidates() {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        return wait.until(ExpectedConditions.presenceOfElementLocated(candidates));
     }
 }
