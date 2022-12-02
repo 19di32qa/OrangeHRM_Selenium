@@ -19,7 +19,12 @@ public class AsideBar {
     private By MyInfo = By.partialLinkText("My Info");
     private By recruitment = By.partialLinkText("Recruitment");
     private By leave = By.partialLinkText("Leave");
+    private By time = By.partialLinkText("Time");
 
+    public WebElement getTimeLink() {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        return wait.until(ExpectedConditions.presenceOfElementLocated(time));
+    }
     public WebElement getAdminLink() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         return wait.until(ExpectedConditions.presenceOfElementLocated(admin));
