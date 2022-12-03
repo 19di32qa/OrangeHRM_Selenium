@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="10.477" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="641.368" tests="20" errors="0" skipped="0" failures="5">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="webdriver.chrome.driver" value="C:\Users\Dima\Desktop\OrangeHRM/src/main/resources/chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
-    <property name="java.class.path" value="C:\Users\Dima\Desktop\OrangeHRM\target\test-classes;C:\Users\Dima\Desktop\OrangeHRM\target\classes;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-java\4.5.2\selenium-java-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-api\4.5.2\selenium-api-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.5.2\selenium-chrome-driver-4.5.2.jar;C:\Users\Dima\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\Dima\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\Dima\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\Dima\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\Dima\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Dima\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Dima\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Dima\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\Dima\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.5.2\selenium-chromium-driver-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-json\4.5.2\selenium-json-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v104\4.5.2\selenium-devtools-v104-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v105\4.5.2\selenium-devtools-v105-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v106\4.5.2\selenium-devtools-v106-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.5.2\selenium-devtools-v85-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.5.2\selenium-edge-driver-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.5.2\selenium-firefox-driver-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.5.2\selenium-ie-driver-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.5.2\selenium-remote-driver-4.5.2.jar;C:\Users\Dima\.m2\repository\io\netty\netty-buffer\4.1.84.Final\netty-buffer-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-codec-http\4.1.84.Final\netty-codec-http-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-codec\4.1.84.Final\netty-codec-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-handler\4.1.84.Final\netty-handler-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-common\4.1.84.Final\netty-common-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.84.Final\netty-transport-classes-epoll-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.84.Final\netty-transport-classes-kqueue-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-native-epoll\4.1.84.Final\netty-transport-native-epoll-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.84.Final\netty-transport-native-kqueue-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.84.Final\netty-transport-native-unix-common-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport\4.1.84.Final\netty-transport-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-resolver\4.1.84.Final\netty-resolver-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-api\1.19.0\opentelemetry-api-1.19.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-context\1.19.0\opentelemetry-context-1.19.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.19.0\opentelemetry-exporter-logging-1.19.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.19.0\opentelemetry-sdk-metrics-1.19.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.19.0-alpha\opentelemetry-sdk-logs-1.19.0-alpha.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.19.0-alpha\opentelemetry-api-logs-1.19.0-alpha.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.19.0\opentelemetry-sdk-common-1.19.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.19.0\opentelemetry-sdk-extension-autoconfigure-spi-1.19.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.19.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.19.0-alpha.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-exporter-common\1.19.0\opentelemetry-exporter-common-1.19.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.19.0\opentelemetry-sdk-trace-1.19.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.19.0\opentelemetry-sdk-1.19.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.19.0-alpha\opentelemetry-semconv-1.19.0-alpha.jar;C:\Users\Dima\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\Dima\.m2\repository\net\bytebuddy\byte-buddy\1.12.18\byte-buddy-1.12.18.jar;C:\Users\Dima\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Dima\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Dima\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Dima\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Dima\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Dima\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Dima\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-http\4.5.2\selenium-http-4.5.2.jar;C:\Users\Dima\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.5.2\selenium-safari-driver-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-support\4.5.2\selenium-support-4.5.2.jar;C:\Users\Dima\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\Dima\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\Dima\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\Dima\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Dima\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Dima\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\Dima\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\Dima\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\Dima\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Dima\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Dima\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\Dima\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Dima\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\Dima\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Dima\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Dima\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Dima\.m2\repository\io\rest-assured\rest-assured\4.5.1\rest-assured-4.5.1.jar;C:\Users\Dima\.m2\repository\org\codehaus\groovy\groovy\3.0.9\groovy-3.0.9.jar;C:\Users\Dima\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.9\groovy-xml-3.0.9.jar;C:\Users\Dima\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Dima\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Dima\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Dima\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Dima\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Dima\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Dima\.m2\repository\io\rest-assured\json-path\4.5.1\json-path-4.5.1.jar;C:\Users\Dima\.m2\repository\org\codehaus\groovy\groovy-json\3.0.9\groovy-json-3.0.9.jar;C:\Users\Dima\.m2\repository\io\rest-assured\rest-assured-common\4.5.1\rest-assured-common-4.5.1.jar;C:\Users\Dima\.m2\repository\io\rest-assured\xml-path\4.5.1\xml-path-4.5.1.jar;C:\Users\Dima\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Dima\.m2\repository\org\apache\logging\log4j\log4j-api\2.15.0\log4j-api-2.15.0.jar;C:\Users\Dima\.m2\repository\org\apache\logging\log4j\log4j-core\2.15.0\log4j-core-2.15.0.jar;C:\Users\Dima\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.15.0\log4j-slf4j-impl-2.15.0.jar;"/>
+    <property name="java.class.path" value="C:\Users\Dima\Desktop\OrangeHRM\target\test-classes;C:\Users\Dima\Desktop\OrangeHRM\target\classes;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-java\4.5.2\selenium-java-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-api\4.5.2\selenium-api-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.5.2\selenium-chrome-driver-4.5.2.jar;C:\Users\Dima\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\Dima\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\Dima\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\Dima\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\Dima\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Dima\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Dima\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Dima\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\Dima\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.5.2\selenium-chromium-driver-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-json\4.5.2\selenium-json-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v104\4.5.2\selenium-devtools-v104-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v105\4.5.2\selenium-devtools-v105-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v106\4.5.2\selenium-devtools-v106-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.5.2\selenium-devtools-v85-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.5.2\selenium-edge-driver-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.5.2\selenium-firefox-driver-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.5.2\selenium-ie-driver-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.5.2\selenium-remote-driver-4.5.2.jar;C:\Users\Dima\.m2\repository\io\netty\netty-buffer\4.1.84.Final\netty-buffer-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-codec-http\4.1.84.Final\netty-codec-http-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-codec\4.1.84.Final\netty-codec-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-handler\4.1.84.Final\netty-handler-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-common\4.1.84.Final\netty-common-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.84.Final\netty-transport-classes-epoll-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.84.Final\netty-transport-classes-kqueue-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-native-epoll\4.1.84.Final\netty-transport-native-epoll-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.84.Final\netty-transport-native-kqueue-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.84.Final\netty-transport-native-unix-common-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport\4.1.84.Final\netty-transport-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-resolver\4.1.84.Final\netty-resolver-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-api\1.19.0\opentelemetry-api-1.19.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-context\1.19.0\opentelemetry-context-1.19.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.19.0\opentelemetry-exporter-logging-1.19.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.19.0\opentelemetry-sdk-metrics-1.19.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.19.0-alpha\opentelemetry-sdk-logs-1.19.0-alpha.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.19.0-alpha\opentelemetry-api-logs-1.19.0-alpha.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.19.0\opentelemetry-sdk-common-1.19.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.19.0\opentelemetry-sdk-extension-autoconfigure-spi-1.19.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.19.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.19.0-alpha.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-exporter-common\1.19.0\opentelemetry-exporter-common-1.19.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.19.0\opentelemetry-sdk-trace-1.19.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.19.0\opentelemetry-sdk-1.19.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.19.0-alpha\opentelemetry-semconv-1.19.0-alpha.jar;C:\Users\Dima\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\Dima\.m2\repository\net\bytebuddy\byte-buddy\1.12.18\byte-buddy-1.12.18.jar;C:\Users\Dima\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Dima\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Dima\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Dima\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Dima\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Dima\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Dima\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-http\4.5.2\selenium-http-4.5.2.jar;C:\Users\Dima\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.5.2\selenium-safari-driver-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-support\4.5.2\selenium-support-4.5.2.jar;C:\Users\Dima\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\Dima\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\Dima\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\Dima\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Dima\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Dima\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\Dima\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\Dima\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\Dima\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Dima\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Dima\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\Dima\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Dima\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\Dima\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Dima\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Dima\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Dima\.m2\repository\io\rest-assured\rest-assured\4.5.1\rest-assured-4.5.1.jar;C:\Users\Dima\.m2\repository\org\codehaus\groovy\groovy\3.0.9\groovy-3.0.9.jar;C:\Users\Dima\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.9\groovy-xml-3.0.9.jar;C:\Users\Dima\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Dima\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Dima\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Dima\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Dima\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Dima\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Dima\.m2\repository\io\rest-assured\json-path\4.5.1\json-path-4.5.1.jar;C:\Users\Dima\.m2\repository\org\codehaus\groovy\groovy-json\3.0.9\groovy-json-3.0.9.jar;C:\Users\Dima\.m2\repository\io\rest-assured\rest-assured-common\4.5.1\rest-assured-common-4.5.1.jar;C:\Users\Dima\.m2\repository\io\rest-assured\xml-path\4.5.1\xml-path-4.5.1.jar;C:\Users\Dima\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Dima\.m2\repository\org\apache\logging\log4j\log4j-api\2.15.0\log4j-api-2.15.0.jar;C:\Users\Dima\.m2\repository\org\apache\logging\log4j\log4j-core\2.15.0\log4j-core-2.15.0.jar;C:\Users\Dima\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.15.0\log4j-slf4j-impl-2.15.0.jar;C:\Users\Dima\.m2\repository\io\qameta\allure\allure-testng\2.14.0\allure-testng-2.14.0.jar;C:\Users\Dima\.m2\repository\io\qameta\allure\allure-java-commons\2.14.0\allure-java-commons-2.14.0.jar;C:\Users\Dima\.m2\repository\io\qameta\allure\allure-model\2.14.0\allure-model-2.14.0.jar;C:\Users\Dima\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\Dima\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\Dima\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\Dima\.m2\repository\org\apache\tika\tika-core\1.26\tika-core-1.26.jar;C:\Users\Dima\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\Dima\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\Dima\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\Dima\.m2\repository\org\jooq\joor-java-8\0.9.14\joor-java-8-0.9.14.jar;C:\Users\Dima\.m2\repository\io\qameta\allure\allure-test-filter\2.14.0\allure-test-filter-2.14.0.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -16,9 +16,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\Dima\AppData\Local\Temp\surefire8602804920250403414\surefirebooter-20221122133811940_3.jar C:\Users\Dima\AppData\Local\Temp\surefire8602804920250403414 2022-11-22T13-38-11_631-jvmRun1 surefire-20221122133811940_1tmp surefire_0-20221122133811940_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Dima\AppData\Local\Temp\surefire9507215019042500006\surefirebooter-20221203160412472_3.jar C:\Users\Dima\AppData\Local\Temp\surefire9507215019042500006 2022-12-03T16-04-12_109-jvmRun1 surefire-20221203160412472_1tmp surefire_0-20221203160412472_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\Dima\Desktop\OrangeHRM\target\test-classes;C:\Users\Dima\Desktop\OrangeHRM\target\classes;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-java\4.5.2\selenium-java-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-api\4.5.2\selenium-api-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.5.2\selenium-chrome-driver-4.5.2.jar;C:\Users\Dima\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\Dima\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\Dima\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\Dima\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\Dima\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Dima\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Dima\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Dima\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\Dima\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.5.2\selenium-chromium-driver-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-json\4.5.2\selenium-json-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v104\4.5.2\selenium-devtools-v104-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v105\4.5.2\selenium-devtools-v105-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v106\4.5.2\selenium-devtools-v106-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.5.2\selenium-devtools-v85-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.5.2\selenium-edge-driver-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.5.2\selenium-firefox-driver-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.5.2\selenium-ie-driver-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.5.2\selenium-remote-driver-4.5.2.jar;C:\Users\Dima\.m2\repository\io\netty\netty-buffer\4.1.84.Final\netty-buffer-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-codec-http\4.1.84.Final\netty-codec-http-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-codec\4.1.84.Final\netty-codec-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-handler\4.1.84.Final\netty-handler-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-common\4.1.84.Final\netty-common-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.84.Final\netty-transport-classes-epoll-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.84.Final\netty-transport-classes-kqueue-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-native-epoll\4.1.84.Final\netty-transport-native-epoll-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.84.Final\netty-transport-native-kqueue-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.84.Final\netty-transport-native-unix-common-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport\4.1.84.Final\netty-transport-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-resolver\4.1.84.Final\netty-resolver-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-api\1.19.0\opentelemetry-api-1.19.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-context\1.19.0\opentelemetry-context-1.19.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.19.0\opentelemetry-exporter-logging-1.19.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.19.0\opentelemetry-sdk-metrics-1.19.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.19.0-alpha\opentelemetry-sdk-logs-1.19.0-alpha.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.19.0-alpha\opentelemetry-api-logs-1.19.0-alpha.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.19.0\opentelemetry-sdk-common-1.19.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.19.0\opentelemetry-sdk-extension-autoconfigure-spi-1.19.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.19.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.19.0-alpha.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-exporter-common\1.19.0\opentelemetry-exporter-common-1.19.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.19.0\opentelemetry-sdk-trace-1.19.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.19.0\opentelemetry-sdk-1.19.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.19.0-alpha\opentelemetry-semconv-1.19.0-alpha.jar;C:\Users\Dima\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\Dima\.m2\repository\net\bytebuddy\byte-buddy\1.12.18\byte-buddy-1.12.18.jar;C:\Users\Dima\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Dima\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Dima\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Dima\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Dima\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Dima\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Dima\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-http\4.5.2\selenium-http-4.5.2.jar;C:\Users\Dima\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.5.2\selenium-safari-driver-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-support\4.5.2\selenium-support-4.5.2.jar;C:\Users\Dima\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\Dima\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\Dima\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\Dima\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Dima\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Dima\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\Dima\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\Dima\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\Dima\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Dima\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Dima\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\Dima\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Dima\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\Dima\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Dima\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Dima\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Dima\.m2\repository\io\rest-assured\rest-assured\4.5.1\rest-assured-4.5.1.jar;C:\Users\Dima\.m2\repository\org\codehaus\groovy\groovy\3.0.9\groovy-3.0.9.jar;C:\Users\Dima\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.9\groovy-xml-3.0.9.jar;C:\Users\Dima\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Dima\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Dima\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Dima\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Dima\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Dima\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Dima\.m2\repository\io\rest-assured\json-path\4.5.1\json-path-4.5.1.jar;C:\Users\Dima\.m2\repository\org\codehaus\groovy\groovy-json\3.0.9\groovy-json-3.0.9.jar;C:\Users\Dima\.m2\repository\io\rest-assured\rest-assured-common\4.5.1\rest-assured-common-4.5.1.jar;C:\Users\Dima\.m2\repository\io\rest-assured\xml-path\4.5.1\xml-path-4.5.1.jar;C:\Users\Dima\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Dima\.m2\repository\org\apache\logging\log4j\log4j-api\2.15.0\log4j-api-2.15.0.jar;C:\Users\Dima\.m2\repository\org\apache\logging\log4j\log4j-core\2.15.0\log4j-core-2.15.0.jar;C:\Users\Dima\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.15.0\log4j-slf4j-impl-2.15.0.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\Dima\Desktop\OrangeHRM\target\test-classes;C:\Users\Dima\Desktop\OrangeHRM\target\classes;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-java\4.5.2\selenium-java-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-api\4.5.2\selenium-api-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.5.2\selenium-chrome-driver-4.5.2.jar;C:\Users\Dima\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\Dima\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\Dima\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\Dima\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\Dima\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Dima\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Dima\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Dima\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\Dima\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.5.2\selenium-chromium-driver-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-json\4.5.2\selenium-json-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v104\4.5.2\selenium-devtools-v104-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v105\4.5.2\selenium-devtools-v105-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v106\4.5.2\selenium-devtools-v106-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.5.2\selenium-devtools-v85-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.5.2\selenium-edge-driver-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.5.2\selenium-firefox-driver-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.5.2\selenium-ie-driver-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.5.2\selenium-remote-driver-4.5.2.jar;C:\Users\Dima\.m2\repository\io\netty\netty-buffer\4.1.84.Final\netty-buffer-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-codec-http\4.1.84.Final\netty-codec-http-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-codec\4.1.84.Final\netty-codec-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-handler\4.1.84.Final\netty-handler-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-common\4.1.84.Final\netty-common-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.84.Final\netty-transport-classes-epoll-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.84.Final\netty-transport-classes-kqueue-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-native-epoll\4.1.84.Final\netty-transport-native-epoll-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.84.Final\netty-transport-native-kqueue-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.84.Final\netty-transport-native-unix-common-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport\4.1.84.Final\netty-transport-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-resolver\4.1.84.Final\netty-resolver-4.1.84.Final.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-api\1.19.0\opentelemetry-api-1.19.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-context\1.19.0\opentelemetry-context-1.19.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.19.0\opentelemetry-exporter-logging-1.19.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.19.0\opentelemetry-sdk-metrics-1.19.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.19.0-alpha\opentelemetry-sdk-logs-1.19.0-alpha.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.19.0-alpha\opentelemetry-api-logs-1.19.0-alpha.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.19.0\opentelemetry-sdk-common-1.19.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.19.0\opentelemetry-sdk-extension-autoconfigure-spi-1.19.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.19.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.19.0-alpha.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-exporter-common\1.19.0\opentelemetry-exporter-common-1.19.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.19.0\opentelemetry-sdk-trace-1.19.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.19.0\opentelemetry-sdk-1.19.0.jar;C:\Users\Dima\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.19.0-alpha\opentelemetry-semconv-1.19.0-alpha.jar;C:\Users\Dima\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\Dima\.m2\repository\net\bytebuddy\byte-buddy\1.12.18\byte-buddy-1.12.18.jar;C:\Users\Dima\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Dima\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Dima\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Dima\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Dima\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Dima\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Dima\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Dima\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-http\4.5.2\selenium-http-4.5.2.jar;C:\Users\Dima\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.5.2\selenium-safari-driver-4.5.2.jar;C:\Users\Dima\.m2\repository\org\seleniumhq\selenium\selenium-support\4.5.2\selenium-support-4.5.2.jar;C:\Users\Dima\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\Dima\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\Dima\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\Dima\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Dima\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Dima\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\Dima\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\Dima\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\Dima\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Dima\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Dima\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\Dima\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Dima\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\Dima\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Dima\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Dima\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Dima\.m2\repository\io\rest-assured\rest-assured\4.5.1\rest-assured-4.5.1.jar;C:\Users\Dima\.m2\repository\org\codehaus\groovy\groovy\3.0.9\groovy-3.0.9.jar;C:\Users\Dima\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.9\groovy-xml-3.0.9.jar;C:\Users\Dima\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Dima\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Dima\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Dima\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Dima\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Dima\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Dima\.m2\repository\io\rest-assured\json-path\4.5.1\json-path-4.5.1.jar;C:\Users\Dima\.m2\repository\org\codehaus\groovy\groovy-json\3.0.9\groovy-json-3.0.9.jar;C:\Users\Dima\.m2\repository\io\rest-assured\rest-assured-common\4.5.1\rest-assured-common-4.5.1.jar;C:\Users\Dima\.m2\repository\io\rest-assured\xml-path\4.5.1\xml-path-4.5.1.jar;C:\Users\Dima\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Dima\.m2\repository\org\apache\logging\log4j\log4j-api\2.15.0\log4j-api-2.15.0.jar;C:\Users\Dima\.m2\repository\org\apache\logging\log4j\log4j-core\2.15.0\log4j-core-2.15.0.jar;C:\Users\Dima\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.15.0\log4j-slf4j-impl-2.15.0.jar;C:\Users\Dima\.m2\repository\io\qameta\allure\allure-testng\2.14.0\allure-testng-2.14.0.jar;C:\Users\Dima\.m2\repository\io\qameta\allure\allure-java-commons\2.14.0\allure-java-commons-2.14.0.jar;C:\Users\Dima\.m2\repository\io\qameta\allure\allure-model\2.14.0\allure-model-2.14.0.jar;C:\Users\Dima\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\Dima\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\Dima\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\Dima\.m2\repository\org\apache\tika\tika-core\1.26\tika-core-1.26.jar;C:\Users\Dima\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\Dima\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\Dima\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\Dima\.m2\repository\org\jooq\joor-java-8\0.9.14\joor-java-8-0.9.14.jar;C:\Users\Dima\.m2\repository\io\qameta\allure\allure-test-filter\2.14.0\allure-test-filter-2.14.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Dima"/>
     <property name="user.language" value="en"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Dima\AppData\Local\Temp\surefire8602804920250403414\surefirebooter-20221122133811940_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Dima\AppData\Local\Temp\surefire9507215019042500006\surefirebooter-20221203160412472_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.1+12-LTS-39"/>
@@ -57,102 +57,817 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="loginTest[Admin, admin123](1)" classname="OrangeHPM.TestCases.TC_0001_Login" time="7.492">
-    <system-out><![CDATA[2022-11-22 13:38:12,818 main DEBUG Apache Log4j Core 2.15.0 initializing configuration XmlConfiguration[location=C:\Users\Dima\Desktop\OrangeHRM\target\classes\log4j2.xml]
-2022-11-22 13:38:12,824 main DEBUG Installed 0 script engines
-2022-11-22 13:38:12,824 main DEBUG PluginManager 'Core' found 127 plugins
-2022-11-22 13:38:12,825 main DEBUG PluginManager 'Level' found 0 plugins
-2022-11-22 13:38:12,828 main DEBUG PluginManager 'Lookup' found 16 plugins
-2022-11-22 13:38:12,830 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
-2022-11-22 13:38:12,843 main DEBUG PluginManager 'TypeConverter' found 26 plugins
-2022-11-22 13:38:12,856 main DEBUG PatternLayout$Builder(pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n", PatternSelector=null, Configuration(C:\Users\Dima\Desktop\OrangeHRM\target\classes\log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
-2022-11-22 13:38:12,857 main DEBUG PluginManager 'Converter' found 45 plugins
-2022-11-22 13:38:12,858 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
-2022-11-22 13:38:12,866 main DEBUG ConsoleAppender$Builder(target="SYSTEM_OUT", follow="null", direct="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n), name="LogToConsole", Configuration(C:\Users\Dima\Desktop\OrangeHRM\target\classes\log4j2.xml), Filter=null, ={})
-2022-11-22 13:38:12,868 main DEBUG Starting OutputStreamManager SYSTEM_OUT.false.false
-2022-11-22 13:38:12,869 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
-2022-11-22 13:38:12,870 main DEBUG PatternLayout$Builder(pattern="%d %p %c{1.} [%t] %m%n", PatternSelector=null, Configuration(C:\Users\Dima\Desktop\OrangeHRM\target\classes\log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
-2022-11-22 13:38:12,886 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.FileAppender].
-2022-11-22 13:38:12,889 main DEBUG FileAppender$Builder(fileName="logs/app.log", append="null", locking="null", advertise="null", advertiseUri="null", createOnDemand="null", filePermissions="null", fileOwner="null", fileGroup="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d %p %c{1.} [%t] %m%n), name="LogToFile", Configuration(C:\Users\Dima\Desktop\OrangeHRM\target\classes\log4j2.xml), Filter=null, ={})
-2022-11-22 13:38:12,891 main DEBUG Starting FileManager logs/app.log
-2022-11-22 13:38:12,892 main DEBUG Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
-2022-11-22 13:38:12,894 main DEBUG createAppenders(={LogToConsole, LogToFile})
-2022-11-22 13:38:12,894 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
-2022-11-22 13:38:12,899 main DEBUG createAppenderRef(ref="LogToFile", level="null", Filter=null)
-2022-11-22 13:38:12,900 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
-2022-11-22 13:38:12,900 main DEBUG createAppenderRef(ref="LogToConsole", level="null", Filter=null)
-2022-11-22 13:38:12,900 main DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig].
-2022-11-22 13:38:12,903 main DEBUG createLogger(additivity="false", level="DEBUG", name="com.mkyong", includeLocation="null", ={LogToFile, LogToConsole}, ={}, Configuration(C:\Users\Dima\Desktop\OrangeHRM\target\classes\log4j2.xml), Filter=null)
-2022-11-22 13:38:12,905 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
-2022-11-22 13:38:12,906 main DEBUG createAppenderRef(ref="LogToConsole", level="null", Filter=null)
-2022-11-22 13:38:12,906 main DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig].
-2022-11-22 13:38:12,907 main DEBUG createLogger(additivity="false", level="INFO", name="org.springframework.boot", includeLocation="null", ={LogToConsole}, ={}, Configuration(C:\Users\Dima\Desktop\OrangeHRM\target\classes\log4j2.xml), Filter=null)
-2022-11-22 13:38:12,907 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
-2022-11-22 13:38:12,908 main DEBUG createAppenderRef(ref="LogToFile", level="null", Filter=null)
-2022-11-22 13:38:12,909 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
-2022-11-22 13:38:12,909 main DEBUG createAppenderRef(ref="LogToConsole", level="null", Filter=null)
-2022-11-22 13:38:12,909 main DEBUG Building Plugin[name=root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
-2022-11-22 13:38:12,910 main DEBUG createLogger(additivity="null", level="INFO", includeLocation="null", ={LogToFile, LogToConsole}, ={}, Configuration(C:\Users\Dima\Desktop\OrangeHRM\target\classes\log4j2.xml), Filter=null)
-2022-11-22 13:38:12,911 main DEBUG Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
-2022-11-22 13:38:12,912 main DEBUG createLoggers(={com.mkyong, org.springframework.boot, root})
-2022-11-22 13:38:12,913 main DEBUG Configuration XmlConfiguration[location=C:\Users\Dima\Desktop\OrangeHRM\target\classes\log4j2.xml] initialized
-2022-11-22 13:38:12,913 main DEBUG Starting configuration XmlConfiguration[location=C:\Users\Dima\Desktop\OrangeHRM\target\classes\log4j2.xml]
-2022-11-22 13:38:12,913 main DEBUG Started configuration XmlConfiguration[location=C:\Users\Dima\Desktop\OrangeHRM\target\classes\log4j2.xml] OK.
-2022-11-22 13:38:12,914 main DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
-2022-11-22 13:38:12,914 main DEBUG OutputStream closed
-2022-11-22 13:38:12,914 main DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
-2022-11-22 13:38:12,915 main DEBUG Appender DefaultConsole-1 stopped with status true
-2022-11-22 13:38:12,915 main DEBUG Stopped org.apache.logging.log4j.core.config.DefaultConfiguration@1ee807c6 OK
-2022-11-22 13:38:13,002 main DEBUG Registering MBean org.apache.logging.log4j2:type=2a139a55
-2022-11-22 13:38:13,005 main DEBUG Registering MBean org.apache.logging.log4j2:type=2a139a55,component=StatusLogger
-2022-11-22 13:38:13,006 main DEBUG Registering MBean org.apache.logging.log4j2:type=2a139a55,component=ContextSelector
-2022-11-22 13:38:13,007 main DEBUG Registering MBean org.apache.logging.log4j2:type=2a139a55,component=Loggers,name=org.springframework.boot
-2022-11-22 13:38:13,008 main DEBUG Registering MBean org.apache.logging.log4j2:type=2a139a55,component=Loggers,name=
-2022-11-22 13:38:13,008 main DEBUG Registering MBean org.apache.logging.log4j2:type=2a139a55,component=Loggers,name=com.mkyong
-2022-11-22 13:38:13,009 main DEBUG Registering MBean org.apache.logging.log4j2:type=2a139a55,component=Appenders,name=LogToConsole
-2022-11-22 13:38:13,010 main DEBUG Registering MBean org.apache.logging.log4j2:type=2a139a55,component=Appenders,name=LogToFile
-2022-11-22 13:38:13,012 main DEBUG org.apache.logging.log4j.core.util.SystemClock supports precise timestamps.
-2022-11-22 13:38:13,012 main DEBUG Reconfiguration complete for context[name=2a139a55] at URI C:\Users\Dima\Desktop\OrangeHRM\target\classes\log4j2.xml (org.apache.logging.log4j.core.LoggerContext@41488b16) with optional ClassLoader: null
-2022-11-22 13:38:13,012 main DEBUG Shutdown hook enabled. Registering a new one.
-2022-11-22 13:38:13,013 main DEBUG LoggerContext[name=2a139a55, org.apache.logging.log4j.core.LoggerContext@41488b16] started OK.
-13:38:13.224 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-13:38:13.232 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-13:38:13.234 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-13:38:13.234 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-13:38:13.237 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
-13:38:13.251 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 14 ms.
-13:38:13.252 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-13:38:13.252 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-13:38:13.253 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-13:38:13.253 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-13:38:13.253 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-13:38:13.253 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-13:38:13.254 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-13:38:13.254 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-13:38:13.254 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-13:38:13.254 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-13:38:13.256 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-13:38:13.257 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-13:38:13.257 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-13:38:13.257 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-13:38:13.259 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-13:38:13.259 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-13:38:13.260 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
-13:38:13.261 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-13:38:13.262 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-13:38:13.263 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-13:38:13.264 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-13:38:13.264 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-13:38:13.265 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-13:38:13.265 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-13:38:15.013 [main] INFO  OrangeHPM.PageObjects.BaseClass - WebDriver is set
-13:38:15.020 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 2 ms.
+  <testcase name="loginTest[Admin, admin123](1)" classname="OrangeHPM.TestCases.TC_0001_Login" time="22.344">
+    <system-out><![CDATA[2022-12-03 16:04:13,406 main DEBUG Apache Log4j Core 2.15.0 initializing configuration XmlConfiguration[location=C:\Users\Dima\Desktop\OrangeHRM\target\classes\log4j2.xml]
+2022-12-03 16:04:13,412 main DEBUG Installed 0 script engines
+2022-12-03 16:04:13,413 main DEBUG PluginManager 'Core' found 127 plugins
+2022-12-03 16:04:13,413 main DEBUG PluginManager 'Level' found 0 plugins
+2022-12-03 16:04:13,417 main DEBUG PluginManager 'Lookup' found 16 plugins
+2022-12-03 16:04:13,419 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2022-12-03 16:04:13,433 main DEBUG PluginManager 'TypeConverter' found 26 plugins
+2022-12-03 16:04:13,446 main DEBUG PatternLayout$Builder(pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n", PatternSelector=null, Configuration(C:\Users\Dima\Desktop\OrangeHRM\target\classes\log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2022-12-03 16:04:13,447 main DEBUG PluginManager 'Converter' found 45 plugins
+2022-12-03 16:04:13,447 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
+2022-12-03 16:04:13,457 main DEBUG ConsoleAppender$Builder(target="SYSTEM_OUT", follow="null", direct="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n), name="LogToConsole", Configuration(C:\Users\Dima\Desktop\OrangeHRM\target\classes\log4j2.xml), Filter=null, ={})
+2022-12-03 16:04:13,459 main DEBUG Starting OutputStreamManager SYSTEM_OUT.false.false
+2022-12-03 16:04:13,460 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2022-12-03 16:04:13,461 main DEBUG PatternLayout$Builder(pattern="%d %p %c{1.} [%t] %m%n", PatternSelector=null, Configuration(C:\Users\Dima\Desktop\OrangeHRM\target\classes\log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2022-12-03 16:04:13,476 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.FileAppender].
+2022-12-03 16:04:13,479 main DEBUG FileAppender$Builder(fileName="logs/app.log", append="null", locking="null", advertise="null", advertiseUri="null", createOnDemand="null", filePermissions="null", fileOwner="null", fileGroup="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d %p %c{1.} [%t] %m%n), name="LogToFile", Configuration(C:\Users\Dima\Desktop\OrangeHRM\target\classes\log4j2.xml), Filter=null, ={})
+2022-12-03 16:04:13,481 main DEBUG Starting FileManager logs/app.log
+2022-12-03 16:04:13,482 main DEBUG Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+2022-12-03 16:04:13,482 main DEBUG createAppenders(={LogToConsole, LogToFile})
+2022-12-03 16:04:13,482 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2022-12-03 16:04:13,487 main DEBUG createAppenderRef(ref="LogToFile", level="null", Filter=null)
+2022-12-03 16:04:13,488 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2022-12-03 16:04:13,488 main DEBUG createAppenderRef(ref="LogToConsole", level="null", Filter=null)
+2022-12-03 16:04:13,488 main DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig].
+2022-12-03 16:04:13,490 main DEBUG createLogger(additivity="false", level="DEBUG", name="com.mkyong", includeLocation="null", ={LogToFile, LogToConsole}, ={}, Configuration(C:\Users\Dima\Desktop\OrangeHRM\target\classes\log4j2.xml), Filter=null)
+2022-12-03 16:04:13,492 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2022-12-03 16:04:13,493 main DEBUG createAppenderRef(ref="LogToConsole", level="null", Filter=null)
+2022-12-03 16:04:13,493 main DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig].
+2022-12-03 16:04:13,494 main DEBUG createLogger(additivity="false", level="INFO", name="org.springframework.boot", includeLocation="null", ={LogToConsole}, ={}, Configuration(C:\Users\Dima\Desktop\OrangeHRM\target\classes\log4j2.xml), Filter=null)
+2022-12-03 16:04:13,494 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2022-12-03 16:04:13,496 main DEBUG createAppenderRef(ref="LogToFile", level="null", Filter=null)
+2022-12-03 16:04:13,496 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2022-12-03 16:04:13,497 main DEBUG createAppenderRef(ref="LogToConsole", level="null", Filter=null)
+2022-12-03 16:04:13,497 main DEBUG Building Plugin[name=root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
+2022-12-03 16:04:13,498 main DEBUG createLogger(additivity="null", level="INFO", includeLocation="null", ={LogToFile, LogToConsole}, ={}, Configuration(C:\Users\Dima\Desktop\OrangeHRM\target\classes\log4j2.xml), Filter=null)
+2022-12-03 16:04:13,499 main DEBUG Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+2022-12-03 16:04:13,500 main DEBUG createLoggers(={com.mkyong, org.springframework.boot, root})
+2022-12-03 16:04:13,501 main DEBUG Configuration XmlConfiguration[location=C:\Users\Dima\Desktop\OrangeHRM\target\classes\log4j2.xml] initialized
+2022-12-03 16:04:13,502 main DEBUG Starting configuration XmlConfiguration[location=C:\Users\Dima\Desktop\OrangeHRM\target\classes\log4j2.xml]
+2022-12-03 16:04:13,502 main DEBUG Started configuration XmlConfiguration[location=C:\Users\Dima\Desktop\OrangeHRM\target\classes\log4j2.xml] OK.
+2022-12-03 16:04:13,503 main DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
+2022-12-03 16:04:13,503 main DEBUG OutputStream closed
+2022-12-03 16:04:13,504 main DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
+2022-12-03 16:04:13,504 main DEBUG Appender DefaultConsole-1 stopped with status true
+2022-12-03 16:04:13,504 main DEBUG Stopped org.apache.logging.log4j.core.config.DefaultConfiguration@4148db48 OK
+2022-12-03 16:04:13,604 main DEBUG Registering MBean org.apache.logging.log4j2:type=2a139a55
+2022-12-03 16:04:13,607 main DEBUG Registering MBean org.apache.logging.log4j2:type=2a139a55,component=StatusLogger
+2022-12-03 16:04:13,608 main DEBUG Registering MBean org.apache.logging.log4j2:type=2a139a55,component=ContextSelector
+2022-12-03 16:04:13,610 main DEBUG Registering MBean org.apache.logging.log4j2:type=2a139a55,component=Loggers,name=org.springframework.boot
+2022-12-03 16:04:13,610 main DEBUG Registering MBean org.apache.logging.log4j2:type=2a139a55,component=Loggers,name=
+2022-12-03 16:04:13,611 main DEBUG Registering MBean org.apache.logging.log4j2:type=2a139a55,component=Loggers,name=com.mkyong
+2022-12-03 16:04:13,612 main DEBUG Registering MBean org.apache.logging.log4j2:type=2a139a55,component=Appenders,name=LogToConsole
+2022-12-03 16:04:13,612 main DEBUG Registering MBean org.apache.logging.log4j2:type=2a139a55,component=Appenders,name=LogToFile
+2022-12-03 16:04:13,614 main DEBUG org.apache.logging.log4j.core.util.SystemClock supports precise timestamps.
+2022-12-03 16:04:13,614 main DEBUG Reconfiguration complete for context[name=2a139a55] at URI C:\Users\Dima\Desktop\OrangeHRM\target\classes\log4j2.xml (org.apache.logging.log4j.core.LoggerContext@2e570ded) with optional ClassLoader: null
+2022-12-03 16:04:13,614 main DEBUG Shutdown hook enabled. Registering a new one.
+2022-12-03 16:04:13,616 main DEBUG LoggerContext[name=2a139a55, org.apache.logging.log4j.core.LoggerContext@2e570ded] started OK.
+16:04:14.034 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+16:04:14.043 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+16:04:14.045 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.045 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.045 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.045 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.046 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.046 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.049 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+16:04:14.063 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 14 ms.
+16:04:14.064 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.065 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.065 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.065 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.066 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.066 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.068 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.069 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.069 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.069 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.070 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.070 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.071 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.071 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.071 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.071 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.072 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.072 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.072 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.073 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+16:04:14.073 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.074 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+16:04:14.074 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.074 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.075 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.075 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.076 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.076 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.077 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.077 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.078 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.079 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.079 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.079 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.080 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.080 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.080 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.080 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.081 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.081 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.082 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.082 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.082 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.082 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.082 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.083 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.083 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.083 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.083 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.083 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.084 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.084 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.084 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.084 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.084 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.085 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.085 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.085 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.085 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.085 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.086 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.086 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.086 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.086 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.086 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.086 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.087 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.087 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.087 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.087 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.088 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.088 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.088 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.088 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.088 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.088 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.088 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.088 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.089 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.089 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.089 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.089 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.090 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.090 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.090 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.090 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.090 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.090 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.090 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.090 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.091 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.091 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.092 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.092 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.092 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.092 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.092 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.092 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.092 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.093 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.093 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.093 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.094 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.094 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.095 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.095 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.095 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.095 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.095 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.095 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.096 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.096 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.096 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.096 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.096 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.096 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.097 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.097 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.098 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.098 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.099 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.099 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.099 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.099 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.100 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.100 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.100 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.100 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.100 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.100 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.101 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.101 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.101 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.102 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.102 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.102 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.102 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.102 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.102 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.103 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.103 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.103 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.104 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.104 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.104 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.104 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.104 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.104 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.105 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.105 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.105 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.105 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.106 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.106 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.106 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.106 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.106 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.106 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.106 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.107 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+16:04:14.107 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.108 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+16:04:14.108 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.108 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.108 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.109 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.109 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.109 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.109 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.109 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.110 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.110 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.111 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.111 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.111 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.111 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.111 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.111 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.112 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.112 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.112 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.113 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.113 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.113 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.113 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.113 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.114 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.114 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.114 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.114 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.114 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.115 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.115 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.115 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.115 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.115 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.115 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.115 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.116 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.116 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.116 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.117 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.117 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.117 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.117 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.117 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.118 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.118 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.118 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.118 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.118 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.119 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.119 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.119 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.119 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.119 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.119 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.119 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.120 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.120 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.120 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.121 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.121 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.121 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.121 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.121 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.122 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.122 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.122 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.122 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.122 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.123 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.123 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.123 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.123 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.123 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.123 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.124 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.124 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.124 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.125 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.125 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.125 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.125 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.126 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.126 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.126 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.126 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.126 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.126 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.127 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.127 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.127 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.128 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.128 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.128 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.128 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.128 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.128 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.129 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.129 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.130 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.130 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.130 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.130 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.130 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.130 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.130 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.130 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.131 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.131 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.131 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.132 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.132 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.132 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.132 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.132 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.132 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.132 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.133 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.133 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.133 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.134 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.134 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.134 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.134 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.134 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.134 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.134 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.134 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.135 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.135 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.135 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.135 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.135 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.136 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.136 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.136 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.136 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.136 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.137 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.137 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.137 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.137 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.137 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.137 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.138 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.138 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.138 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.138 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.140 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.140 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.140 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.140 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.141 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.146 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 3 ms.
+16:04:14.147 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.147 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.147 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:04:14.147 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:04:14.274 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 5 ms.
+16:04:16.804 [main] INFO  OrangeHPM.PageObjects.BaseClass - WebDriver is set
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 4530
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 46131
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Nov 22, 2022 1:38:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Dec 03, 2022 4:04:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 107, so returning the closest version found: 106
+]]></system-err>
+  </testcase>
+  <testcase name="logOutTest" classname="OrangeHPM.TestCases.TC_0002_Login_Logout" time="33.621">
+    <system-out><![CDATA[16:04:40.307 [main] INFO  OrangeHPM.PageObjects.BaseClass - WebDriver is set
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 3060
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 03, 2022 4:04:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 107, so returning the closest version found: 106
+]]></system-err>
+  </testcase>
+  <testcase name="loginDDT[Admin, admin, Login Failed](1)" classname="OrangeHPM.TestCases.TC_0003_Login_DD" time="28.704">
+    <system-out><![CDATA[16:05:15.177 [main] INFO  OrangeHPM.PageObjects.BaseClass - WebDriver is set
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 31892
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 03, 2022 4:05:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 107, so returning the closest version found: 106
+]]></system-err>
+  </testcase>
+  <testcase name="loginDDT[Admin123, admin123, Login Failed](2)" classname="OrangeHPM.TestCases.TC_0003_Login_DD" time="2.967"/>
+  <testcase name="loginDDT[Admin, admin321, Login Failed](3)" classname="OrangeHPM.TestCases.TC_0003_Login_DD" time="3.35"/>
+  <testcase name="loginDDT[Admin, admin123, Login Passed](4)" classname="OrangeHPM.TestCases.TC_0003_Login_DD" time="3.035"/>
+  <testcase name="myActionsDashboardTest" classname="OrangeHPM.TestCases.TC_0005_MyActions" time="28.353">
+    <system-out><![CDATA[16:05:54.917 [main] INFO  OrangeHPM.PageObjects.BaseClass - WebDriver is set
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 37562
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 03, 2022 4:05:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 107, so returning the closest version found: 106
+]]></system-err>
+  </testcase>
+  <testcase name="quickLaunchTest" classname="OrangeHPM.TestCases.TC_0006_QuickLaunchTest" time="42.456">
+    <system-out><![CDATA[16:06:24.313 [main] INFO  OrangeHPM.PageObjects.BaseClass - WebDriver is set
+Assign Leave
+Leave List
+Timesheets
+Apply Leave
+My Leave
+My Timesheet
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 26635
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 03, 2022 4:06:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 107, so returning the closest version found: 106
+]]></system-err>
+  </testcase>
+  <testcase name="profileTest" classname="OrangeHPM.TestCases.TC_0007_Profile" time="46.913">
+    <system-out><![CDATA[16:07:07.913 [main] INFO  OrangeHPM.PageObjects.BaseClass - WebDriver is set
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 27826
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 03, 2022 4:07:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 107, so returning the closest version found: 106
+]]></system-err>
+  </testcase>
+  <testcase name="addEmployeeTest[Alex, Di, Mercury](1)" classname="OrangeHPM.TestCases.TC_0008_Add_Employee_DD" time="31.76">
+    <system-out><![CDATA[16:07:55.940 [main] INFO  OrangeHPM.PageObjects.BaseClass - WebDriver is set
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 47380
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 03, 2022 4:07:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 107, so returning the closest version found: 106
+]]></system-err>
+  </testcase>
+  <testcase name="addEmployeeTest[Natan, Li, Jhonson](2)" classname="OrangeHPM.TestCases.TC_0008_Add_Employee_DD" time="9.29"/>
+  <testcase name="deleteEmployee[Alex](1)" classname="OrangeHPM.TestCases.TC_0009_DeleteEmployeeDDT" time="28.811">
+    <system-out><![CDATA[16:08:38.151 [main] INFO  OrangeHPM.PageObjects.BaseClass - WebDriver is set
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 27191
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 03, 2022 4:08:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 107, so returning the closest version found: 106
+]]></system-err>
+  </testcase>
+  <testcase name="deleteEmployee[Natan](2)" classname="OrangeHPM.TestCases.TC_0009_DeleteEmployeeDDT" time="5.779">
+    <failure message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=107.0.5304.122)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference&#10;Build info: version: &apos;4.5.2&apos;, revision: &apos;702c64f787c&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [77ddff3ca0930400c1776d0046c0a552, clickElement {id=3b3e0b0c-d710-495b-8605-98a902d3e60d}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.122, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Dima\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51321}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51321/devtoo..., se:cdpVersion: 107.0.5304.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (77ddff3ca0930400c1776d0046c0a552)] -&gt; css selector: .oxd-icon.bi-trash]&#10;Session ID: 77ddff3ca0930400c1776d0046c0a552" type="org.openqa.selenium.StaleElementReferenceException"><![CDATA[org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=107.0.5304.122)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.5.2', revision: '702c64f787c'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [77ddff3ca0930400c1776d0046c0a552, clickElement {id=3b3e0b0c-d710-495b-8605-98a902d3e60d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.122, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Dima\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51321}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51321/devtoo..., se:cdpVersion: 107.0.5304.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (77ddff3ca0930400c1776d0046c0a552)] -> css selector: .oxd-icon.bi-trash]
+Session ID: 77ddff3ca0930400c1776d0046c0a552
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at OrangeHPM.TestCases.TC_0009_DeleteEmployeeDDT.deleteEmployee(TC_0009_DeleteEmployeeDDT.java:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+  </testcase>
+  <testcase name="editUserTest" classname="OrangeHPM.TestCases.TC_0010_EditUser" time="31.427">
+    <failure message="expected [No Records Found] but found [(1) Record Found]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [No Records Found] but found [(1) Record Found]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at OrangeHPM.TestCases.TC_0010_EditUser.editUserTest(TC_0010_EditUser.java:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+    <system-out><![CDATA[16:09:13.778 [main] INFO  OrangeHPM.PageObjects.BaseClass - WebDriver is set
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 34672
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 03, 2022 4:09:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 107, so returning the closest version found: 106
+]]></system-err>
+  </testcase>
+  <testcase name="personalEditTest" classname="OrangeHPM.TestCases.TC_0011_PersonalDetailsEdit" time="39.294">
+    <failure message="expected [Alex] but found [PaulAlex]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Alex] but found [PaulAlex]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at OrangeHPM.TestCases.TC_0011_PersonalDetailsEdit.isInputFieldUpdated(TC_0011_PersonalDetailsEdit.java:59)
+	at OrangeHPM.TestCases.TC_0011_PersonalDetailsEdit.personalEditTest(TC_0011_PersonalDetailsEdit.java:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+    <system-out><![CDATA[16:09:46.335 [main] INFO  OrangeHPM.PageObjects.BaseClass - WebDriver is set
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 20541
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 03, 2022 4:09:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 107, so returning the closest version found: 106
+]]></system-err>
+  </testcase>
+  <testcase name="addVacancyTest" classname="OrangeHPM.TestCases.TC_0012_AddVacancy" time="136.666">
+    <failure message="Expected condition failed: waiting for presence of element located by: By.name: password (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.name: password (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at OrangeHPM.PageObjects.LoginPage.setPassword(LoginPage.java:28)
+	at OrangeHPM.TestCases.TC_0012_AddVacancy.addVacancyTest(TC_0012_AddVacancy.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='password']"}
+  (Session info: chrome=107.0.5304.122)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.2', revision: '702c64f787c'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [43e56d60a1ab7939a5f2e47ae58daa02, findElement {using=name, value=password}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.122, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Dima\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51436}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51436/devtoo..., se:cdpVersion: 107.0.5304.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 43e56d60a1ab7939a5f2e47ae58daa02
+	at jdk.internal.reflect.GeneratedConstructorAccessor25.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:174)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 34 more
+]]></failure>
+    <system-out><![CDATA[16:10:26.690 [main] INFO  OrangeHPM.PageObjects.BaseClass - WebDriver is set
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 9017
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 03, 2022 4:10:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 107, so returning the closest version found: 106
+]]></system-err>
+  </testcase>
+  <testcase name="leaveApproveTest" classname="OrangeHPM.TestCases.TC_0013_LeaveApprove" time="30.319">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at OrangeHPM.PageObjects.SuccessMessage.isMessageDisplayed(SuccessMessage.java:21)
+	at OrangeHPM.TestCases.TC_0013_LeaveApprove.leaveApproveTest(TC_0013_LeaveApprove.java:20)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+    <system-out><![CDATA[16:12:44.291 [main] INFO  OrangeHPM.PageObjects.BaseClass - WebDriver is set
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 39577
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 03, 2022 4:12:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 107, so returning the closest version found: 106
+]]></system-err>
+  </testcase>
+  <testcase name="rejectTest" classname="OrangeHPM.TestCases.TC_0014_LeaveReject" time="27.992">
+    <system-out><![CDATA[16:13:15.535 [main] INFO  OrangeHPM.PageObjects.BaseClass - WebDriver is set
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 1642
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 03, 2022 4:13:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 107, so returning the closest version found: 106
+]]></system-err>
+  </testcase>
+  <testcase name="customFieldTest" classname="OrangeHPM.TestCases.TC_0015_CreateCustomField" time="30.912">
+    <system-out><![CDATA[16:13:44.643 [main] INFO  OrangeHPM.PageObjects.BaseClass - WebDriver is set
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 24058
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 03, 2022 4:13:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 107, so returning the closest version found: 106
+]]></system-err>
+  </testcase>
+  <testcase name="addLocationTest" classname="OrangeHPM.TestCases.TC_0016_AddLocation" time="37.004">
+    <system-out><![CDATA[16:14:16.621 [main] INFO  OrangeHPM.PageObjects.BaseClass - WebDriver is set
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 23699
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 03, 2022 4:14:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 107, so returning the closest version found: 106
 ]]></system-err>
   </testcase>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="C:/Users/Dima/Desktop/OrangeHRM(failed)" verbose="0">
+    <classes>
+      <class name="OrangeHPM.TestCases.TC_0013_LeaveApprove">
+        <methods>
+          <include name="leaveApproveTest"/>
+          <include name="TearDown"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- OrangeHPM.TestCases.TC_0013_LeaveApprove -->
+      <class name="OrangeHPM.TestCases.TC_0012_AddVacancy">
+        <methods>
+          <include name="TearDown"/>
+          <include name="SetUp"/>
+          <include name="addVacancyTest"/>
+        </methods>
+      </class> <!-- OrangeHPM.TestCases.TC_0012_AddVacancy -->
+      <class name="OrangeHPM.TestCases.TC_0011_PersonalDetailsEdit">
+        <methods>
+          <include name="TearDown"/>
+          <include name="SetUp"/>
+          <include name="personalEditTest"/>
+        </methods>
+      </class> <!-- OrangeHPM.TestCases.TC_0011_PersonalDetailsEdit -->
+      <class name="OrangeHPM.TestCases.TC_0010_EditUser">
+        <methods>
+          <include name="TearDown"/>
+          <include name="SetUp"/>
+          <include name="editUserTest"/>
+        </methods>
+      </class> <!-- OrangeHPM.TestCases.TC_0010_EditUser -->
+      <class name="OrangeHPM.TestCases.TC_0009_DeleteEmployeeDDT">
+        <methods>
+          <include name="deleteEmployee" invocation-numbers="1"/>
+          <include name="TearDown"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- OrangeHPM.TestCases.TC_0009_DeleteEmployeeDDT -->
+    </classes>
+  </test> <!-- C:/Users/Dima/Desktop/OrangeHRM(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
