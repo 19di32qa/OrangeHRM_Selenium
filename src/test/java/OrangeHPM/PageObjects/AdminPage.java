@@ -16,21 +16,12 @@ public class AdminPage {
         this.driver =driver;
     }
 
-    public By organizationDropDown = By.xpath("//span[contains(text(),\"Organization\")]");
-    public By locationsLink = By.partialLinkText("Locations");
+    private By organizationDropDown = By.xpath("//span[contains(text(),\"Organization\")]");
+    private By locationsLink = By.partialLinkText("Locations");
 
-    public By addBTN = By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div[2]/div[1]/button");
-    public By userRole = By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[1]/div/div[2]/div/div");
-    public By status = By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[3]/div/div[2]/div/div");
-    public By employeeName = By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[2]/div/div[2]/div/div/input");
-    public By userName = By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[4]/div/div[2]/input");
-    //public By userName = By.xpath(("//input[@data-v-844e87dc]"));
-    public By password = By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/form/div[2]/div/div[1]/div/div[2]/input");
-    public By confirmPassword = By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/form/div[2]/div/div[2]/div/div[2]/input");
-    public By saveBtn = By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/form/div[3]/button[2]");
-    public By optionESS = By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[1]/div/div[2]/div/div[2]/div[3]");
-    public By optionEnabled = By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[3]/div/div[2]/div/div[2]/div[2]");
-    public By employee = By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[2]/div/div[2]/div/div[2]/div/span");
+    private By addBTN = By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div[2]/div[1]/button");
+    private By qualificationsDropDown = By.xpath("//*[contains(text(),\"Qualif\")]");
+    private By Languages = By.xpath("//*[contains(text(),\"Lang\")]");
 
 
     public WebElement getOrganizationDropDown() {
@@ -45,6 +36,14 @@ public class AdminPage {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         return wait.until(ExpectedConditions.presenceOfElementLocated(addBTN));
     }
+    public WebElement getQualificationDropDown() {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        return wait.until(ExpectedConditions.presenceOfElementLocated(qualificationsDropDown));
+    }
+    public WebElement getLanguagesLink() {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        return wait.until(ExpectedConditions.presenceOfElementLocated(Languages));
+    }
 
     public void searchByUserName(String str) {
         String locator = ".oxd-text.oxd-text--p.oxd-text--toast-message.oxd-toast-content-text";
@@ -52,9 +51,4 @@ public class AdminPage {
         wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("")));
     }
 
-
-    public WebElement getElement(By by) {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        return wait.until(ExpectedConditions.presenceOfElementLocated(by));
-    }
 }

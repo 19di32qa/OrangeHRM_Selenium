@@ -7,11 +7,8 @@ public class TC_0012_AddVacancy extends BaseClass {
 
     @Test
     public void addVacancyTest() throws InterruptedException {
-        LoginPage loginPage= new LoginPage(driver);
-        loginPage.getPage();
-        loginPage.setPassword(getPassword());
-        loginPage.setUsername(getUserName());
-        loginPage.getLoginBTN().click();
+        BaseLogin baseLogin = new BaseLogin(driver);
+        baseLogin.login();
 
         AsideBar asideBar = new AsideBar(driver);
         asideBar.getRecruitmentLink().click();

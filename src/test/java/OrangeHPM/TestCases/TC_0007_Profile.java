@@ -1,6 +1,7 @@
 package OrangeHPM.TestCases;
 
 import OrangeHPM.PageObjects.BaseClass;
+import OrangeHPM.PageObjects.BaseLogin;
 import OrangeHPM.PageObjects.LoginPage;
 import OrangeHPM.PageObjects.Profile;
 import org.testng.Assert;
@@ -10,11 +11,8 @@ public class TC_0007_Profile extends BaseClass {
 
     @Test
     public void profileTest() throws InterruptedException {
-        LoginPage loginPage = new LoginPage(driver);
-        loginPage.getPage();
-        loginPage.setUsername(getUserName());
-        loginPage.setPassword(getPassword());
-        loginPage.getLoginBTN().click();
+        BaseLogin baseLogin = new BaseLogin(driver);
+        baseLogin.login();
 
         Profile profile =new Profile(driver);
         profile.getProfileDropDown().click();

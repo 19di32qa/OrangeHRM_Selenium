@@ -1,6 +1,7 @@
 package OrangeHPM.TestCases;
 
 import OrangeHPM.PageObjects.BaseClass;
+import OrangeHPM.PageObjects.BaseLogin;
 import OrangeHPM.PageObjects.Dashboard;
 import OrangeHPM.PageObjects.LoginPage;
 import org.openqa.selenium.WebElement;
@@ -13,11 +14,8 @@ public class TC_0006_QuickLaunchTest extends BaseClass {
 
     @Test
     public  void quickLaunchTest() {
-        LoginPage loginPage = new LoginPage(driver);
-        loginPage.getPage();
-        loginPage.setUsername(getUserName());
-        loginPage.setPassword(getPassword());
-        loginPage.getLoginBTN().click();
+        BaseLogin baseLogin = new BaseLogin(driver);
+        baseLogin.login();
 
         Dashboard dashboard = new Dashboard(driver);
         List<WebElement> ls = dashboard.getQuickLaunch();

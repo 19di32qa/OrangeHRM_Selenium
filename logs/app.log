@@ -2005,3 +2005,63 @@ java.net.SocketException: Connection reset
 2022-12-03 16:14:53,971 INFO o.t.i.Utils [main] [TestNG] Time taken by org.testng.reporters.XMLReporter@56351c02: 10 ms
 2022-12-03 16:14:53,978 INFO o.t.i.Utils [main] [TestNG] Time taken by org.testng.reporters.EmailableReporter2@606f0f70: 7 ms
 2022-12-03 16:14:54,003 INFO o.t.i.Utils [main] [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@2e1c5d1f: 25 ms
+2022-12-05 10:03:08,713 INFO o.t.i.Utils [main] [TestNG] Running:
+  C:\Users\Dima\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-12-05 10:03:13,019 INFO O.P.BaseClass [main] WebDriver is set
+2022-12-05 10:05:21,817 INFO o.t.i.Utils [main] [TestNG] Running:
+  C:\Users\Dima\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-12-05 10:05:24,399 INFO O.P.BaseClass [main] WebDriver is set
+2022-12-05 10:08:36,676 INFO o.t.i.Utils [main] [TestNG] Running:
+  C:\Users\Dima\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-12-05 10:08:39,074 INFO O.P.BaseClass [main] WebDriver is set
+2022-12-05 10:10:02,731 INFO o.t.i.Utils [main] [TestNG] Running:
+  C:\Users\Dima\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-12-05 10:10:05,171 INFO O.P.BaseClass [main] WebDriver is set
+2022-12-05 13:48:29,868 INFO o.t.i.Utils [main] [TestNG] Running:
+  C:\Users\Dima\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-12-05 13:48:32,162 INFO O.P.BaseClass [main] WebDriver is set
+2022-12-05 13:49:49,750 INFO o.t.i.Utils [main] [TestNG] Running:
+  C:\Users\Dima\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-12-05 13:49:52,218 INFO O.P.BaseClass [main] WebDriver is set
+2022-12-05 13:50:55,864 INFO o.t.i.Utils [main] [TestNG] Running:
+  C:\Users\Dima\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-12-05 13:50:58,083 INFO O.P.BaseClass [main] WebDriver is set
+2022-12-05 13:55:12,557 INFO o.t.i.Utils [main] [TestNG] Running:
+  C:\Users\Dima\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-12-05 13:55:15,157 INFO O.P.BaseClass [main] WebDriver is set
+2022-12-05 13:58:57,001 INFO o.t.i.Utils [main] [TestNG] Running:
+  C:\Users\Dima\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-12-05 13:58:59,361 INFO O.P.BaseClass [main] WebDriver is set
+2022-12-05 14:01:25,677 INFO o.t.i.Utils [main] [TestNG] Running:
+  C:\Users\Dima\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-12-05 14:01:28,200 INFO O.P.BaseClass [main] WebDriver is set
+2022-12-05 14:03:27,235 INFO o.t.i.Utils [main] [TestNG] Running:
+  C:\Users\Dima\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-12-05 14:03:29,916 INFO O.P.BaseClass [main] WebDriver is set
+2022-12-05 14:25:15,711 INFO o.t.i.Utils [main] [TestNG] Running:
+  C:\Users\Dima\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-12-05 14:25:18,224 INFO O.P.BaseClass [main] WebDriver is set
+2022-12-05 14:26:17,524 INFO o.t.i.Utils [main] [TestNG] Running:
+  C:\Users\Dima\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-12-05 14:26:19,975 INFO O.P.BaseClass [main] WebDriver is set
+2022-12-05 14:50:25,471 INFO o.t.i.Utils [main] [TestNG] Running:
+  C:\Users\Dima\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-12-05 14:50:27,801 INFO O.P.BaseClass [main] WebDriver is set
+2022-12-05 14:53:26,300 INFO o.t.i.Utils [main] [TestNG] Running:
+  C:\Users\Dima\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+2022-12-05 14:53:28,909 INFO O.P.BaseClass [main] WebDriver is set

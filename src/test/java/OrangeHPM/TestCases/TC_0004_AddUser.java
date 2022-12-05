@@ -1,21 +1,17 @@
 package OrangeHPM.TestCases;
 
-import OrangeHPM.PageObjects.AdminPage;
-import OrangeHPM.PageObjects.AsideBar;
-import OrangeHPM.PageObjects.BaseClass;
-import OrangeHPM.PageObjects.LoginPage;
+import OrangeHPM.PageObjects.*;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class TC_0004_AddUser extends BaseClass {
 
-    @Test(enabled = false)
+    @Test()
     public void addUserTest() throws InterruptedException {
-        LoginPage lp = new LoginPage(driver);
-        lp.getPage();
-        lp.setUsername(getUserName());
-        lp.setPassword(getPassword());
-        lp.getLoginBTN().click();
+        BaseLogin baseLogin = new BaseLogin(driver);
+        baseLogin.login();
         // login success
         AsideBar aside = new AsideBar(driver);
         aside.getAdminLink().click();
@@ -23,21 +19,26 @@ public class TC_0004_AddUser extends BaseClass {
 
         AdminPage admin = new AdminPage(driver);
         admin.getAddBtn().click();
-        admin.getElement(admin.userRole).click();
-        admin.getElement(admin.optionESS).click();
-        admin.getElement(admin.status).click();
-        admin.getElement(admin.optionEnabled).click();
-        admin.getElement(admin.employeeName).sendKeys("Odis");
 
-        admin.getElement(admin.employee).click();
-        admin.getElement(admin.userName).sendKeys("GodTesting");
-        admin.getElement(admin.password).sendKeys("Ad12345678!");
-        admin.getElement(admin.confirmPassword).sendKeys("Ad12345678!");
-        Thread.sleep(1000);
+        AddUser addUser = new AddUser(driver);
+        addUser.getUserRoleInput().click();
+        addUser.getOptionESS().click();
+        addUser.getStatusInput().click();
+        addUser.getOptionEnabled().click();
 
-        admin.getElement(admin.saveBtn).submit();
+        WebElement el = addUser.getEmployeeNameInput();
+        Actions actions = new Actions(driver);
+        actions.moveToElement(el).click(el).sendKeys("Adalwin").build().perform();
 
+        addUser.getOptionEmployee().click();
+        addUser.getUserNameInput().sendKeys("Adelwar Test");
+        addUser.getPasswordInput().sendKeys("Ad12345678!");
+        addUser.getConfirmPasswordInput().sendKeys("Ad12345678!");
+        Thread.sleep(2000);
+        addUser.getSaveBtn().submit();
 
+        SuccessMessage successMessage = new SuccessMessage(driver);
+        successMessage.isMessageDisplayed();
 
 
 

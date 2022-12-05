@@ -1,0 +1,1 @@
+{"uuid":"deefdd72-5234-4525-b92b-aba0041cb6de","name":"OrangeHPM.TestCases.TC_0004_AddUser","children":["1dfb739d-cbc6-4cb4-8876-4793d7334887"],"befores":[{"name":"SetUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1670241312620,"stop":1670241315157}],"afters":[],"links":[],"start":1670241312557,"stop":1670241373743}

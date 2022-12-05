@@ -9,11 +9,8 @@ public class TC_0010_EditUser extends BaseClass {
 
     @Test()
     public void editUserTest() {
-        LoginPage loginPage = new LoginPage(driver);
-        loginPage.getPage();
-        loginPage.setUsername(getUserName());
-        loginPage.setPassword(getPassword());
-        loginPage.getLoginBTN().click();
+        BaseLogin baseLogin = new BaseLogin(driver);
+        baseLogin.login();
         String name = "David";
 
         AsideBar asideBar = new AsideBar(driver);

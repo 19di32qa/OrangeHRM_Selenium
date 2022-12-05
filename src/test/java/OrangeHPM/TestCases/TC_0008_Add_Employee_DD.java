@@ -16,11 +16,8 @@ public class TC_0008_Add_Employee_DD extends BaseClass {
 
     @Test(dataProvider = "employees")
     public void addEmployeeTest(String name, String middleName, String lastName) {
-        LoginPage lp = new LoginPage(driver);
-        lp.getPage();
-        lp.setUsername(getUserName());
-        lp.setPassword(getPassword());
-        lp.getLoginBTN().click();
+        BaseLogin baseLogin = new BaseLogin(driver);
+        baseLogin.login();
         // login success
         AsideBar asideBar = new AsideBar(driver);
         asideBar.getPimLink().click();

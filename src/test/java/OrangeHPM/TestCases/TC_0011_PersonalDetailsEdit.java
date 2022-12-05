@@ -1,9 +1,6 @@
 package OrangeHPM.TestCases;
 
-import OrangeHPM.PageObjects.AsideBar;
-import OrangeHPM.PageObjects.BaseClass;
-import OrangeHPM.PageObjects.LoginPage;
-import OrangeHPM.PageObjects.PersonalDetails;
+import OrangeHPM.PageObjects.*;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -17,11 +14,8 @@ import java.time.Duration;
 public class TC_0011_PersonalDetailsEdit extends BaseClass {
     @Test
     public void personalEditTest() throws InterruptedException {
-        LoginPage loginPage = new LoginPage(driver);
-        loginPage.getPage();
-        loginPage.setUsername(getUserName());
-        loginPage.setPassword(getPassword());
-        loginPage.getLoginBTN().click();
+        BaseLogin baseLogin = new BaseLogin(driver);
+        baseLogin.login();
 
         AsideBar asideBar = new AsideBar(driver);
         asideBar.getMyInfoLink().click();

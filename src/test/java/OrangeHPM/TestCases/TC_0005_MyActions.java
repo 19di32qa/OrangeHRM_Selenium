@@ -1,6 +1,7 @@
 package OrangeHPM.TestCases;
 
 import OrangeHPM.PageObjects.BaseClass;
+import OrangeHPM.PageObjects.BaseLogin;
 import OrangeHPM.PageObjects.Dashboard;
 import OrangeHPM.PageObjects.LoginPage;
 import org.openqa.selenium.WebElement;
@@ -13,12 +14,8 @@ public class TC_0005_MyActions extends BaseClass {
 
     @Test
     public void myActionsDashboardTest() {
-        LoginPage lp = new LoginPage(driver);
-        lp.getPage();
-        lp.setUsername(getUserName());//getUserName is from Base class
-        lp.setPassword(getPassword());
-        lp.getLoginBTN().click();
-        // login success
+        BaseLogin baseLogin = new BaseLogin(driver);
+        baseLogin.login();
 
         Assert.assertEquals(driver.getCurrentUrl(),"https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index");
         Dashboard dashboard = new Dashboard(driver);

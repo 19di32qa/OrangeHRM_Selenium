@@ -16,11 +16,8 @@ import java.util.List;
 public class TC_0009_DeleteEmployeeDDT extends BaseClass {
     @Test(dataProvider = "employees to delete")
     public void deleteEmployee(String name) {
-        LoginPage loginPage = new LoginPage(driver);
-        loginPage.getPage();
-        loginPage.setUsername(getUserName());
-        loginPage.setPassword(getPassword());
-        loginPage.getLoginBTN().click();
+        BaseLogin baseLogin = new BaseLogin(driver);
+        baseLogin.login();
 
         AsideBar asideBar = new AsideBar(driver);
         asideBar.getPimLink().click();

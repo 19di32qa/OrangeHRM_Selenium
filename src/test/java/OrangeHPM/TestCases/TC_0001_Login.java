@@ -16,9 +16,7 @@ public class TC_0001_Login extends BaseClass {
         LoginPage lp = new LoginPage(driver);
         lp.getPage();
         Assert.assertEquals(driver.getCurrentUrl(),"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
-        //Thread.sleep(3000);
-        //lp.getUserName().sendKeys(name);
-        //lp.getPassword().sendKeys(password);
+
         lp.setUsername(name);
         lp.setPassword(password);
         lp.getLoginBTN().click();
