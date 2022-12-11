@@ -6,7 +6,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TC_0004_AddUser extends BaseClass {
+public class TC_0004_AddUser_DeleteUser extends BaseClass {
 
     @Test()
     public void addUserTest() throws InterruptedException {
@@ -34,14 +34,28 @@ public class TC_0004_AddUser extends BaseClass {
         addUser.getUserNameInput().sendKeys("Adelwar Test");
         addUser.getPasswordInput().sendKeys("Ad12345678!");
         addUser.getConfirmPasswordInput().sendKeys("Ad12345678!");
-        Thread.sleep(2000);
+        Thread.sleep(1000);
         addUser.getSaveBtn().submit();
 
         SuccessMessage successMessage = new SuccessMessage(driver);
         successMessage.isMessageDisplayed();
 
+    }
+    @Test
+    public void deleteUserTest() {
+        BaseLogin baseLogin  = new BaseLogin(driver);
+        baseLogin.login();
 
+        AsideBar asideBar = new AsideBar(driver);
+        asideBar.getAdminLink().click();
 
+        UserManagement userManagement = new UserManagement(driver);
+        userManagement.getUserNameInput().sendKeys("Adelwar Test");
+        userManagement.getSearchBtn().click();
+        userManagement.getEmployeeToDeleteByName().click();
+        userManagement.getConfirmDeleteBtn().click();
 
+        SuccessMessage successMessage = new SuccessMessage(driver);
+        successMessage.isMessageDisplayed();
     }
 }

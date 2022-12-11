@@ -22,11 +22,32 @@ public class AdminPage {
     private By addBTN = By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div[2]/div[1]/button");
     private By qualificationsDropDown = By.xpath("//*[contains(text(),\"Qualif\")]");
     private By Languages = By.xpath("//*[contains(text(),\"Lang\")]");
+    private By memberships = By.partialLinkText("Memberships");
+    private By jobDropDown = By.xpath("//*[contains(text(),\"Job\")]");
+    private By jobCat = By.xpath("//*[contains(text(),\"Job Cat\")]");
+    private By payGrades = By.xpath("//a[text()=\"Pay Grades\"]");
+    private By workShifts = By.xpath("//a[text()=\"Work Shifts\"]");
 
+    public WebElement getWorkShifts() {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        return wait.until(ExpectedConditions.presenceOfElementLocated(workShifts));
+    }
 
+    public WebElement getJobDropDown() {
+        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
+        return wait.until(ExpectedConditions.presenceOfElementLocated(jobDropDown));
+    }
+    public WebElement getJobCat() {
+        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
+        return wait.until(ExpectedConditions.presenceOfElementLocated(jobCat));
+    }
     public WebElement getOrganizationDropDown() {
         WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
         return wait.until(ExpectedConditions.presenceOfElementLocated(organizationDropDown));
+    }
+    public WebElement getMembershipsLink() {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        return wait.until(ExpectedConditions.presenceOfElementLocated(memberships));
     }
     public WebElement getLocationsLink() {
         WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
@@ -43,6 +64,10 @@ public class AdminPage {
     public WebElement getLanguagesLink() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         return wait.until(ExpectedConditions.presenceOfElementLocated(Languages));
+    }
+    public WebElement getPayGradesLink() {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        return wait.until(ExpectedConditions.presenceOfElementLocated(payGrades));
     }
 
     public void searchByUserName(String str) {

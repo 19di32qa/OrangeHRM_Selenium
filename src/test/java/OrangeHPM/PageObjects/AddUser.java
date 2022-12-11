@@ -13,13 +13,13 @@ public class AddUser {
     public AddUser(WebDriver driver) {
         this.driver = driver;
     }
-    private By userRole = By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[1]/div/div[2]/div/div/div[1]");
-    private By status = By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[3]/div/div[2]/div/div");
+    private By userRole = By.xpath("//*[contains(text(),\"User Role\")]/ancestor::div[@class = \"oxd-input-group oxd-input-field-bottom-space\"]//div[@class=\"oxd-select-text-input\"]");
+    private By status = By.xpath("//*[contains(text(),\"Status\")]/ancestor::div[@class = \"oxd-input-group oxd-input-field-bottom-space\"]//div[@class=\"oxd-select-text-input\"]");
     private By employeeName = By.xpath("//input[@placeholder=\"Type for hints...\"]");
-    private By userName = By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div[4]/div/div[2]/input");
+    private By userName = By.xpath("//*[contains(text(),\"Username\")]/ancestor::div[@class = \"oxd-input-group oxd-input-field-bottom-space\"]//input");
 
-    private By password = By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/form/div[2]/div/div[1]/div/div[2]/input");
-    private By confirmPassword = By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/form/div[2]/div/div[2]/div/div[2]/input");
+    private By password = By.xpath("//*[text()=\"Password\"]/ancestor::div[@class=\"oxd-input-group oxd-input-field-bottom-space\"]//input");
+    private By confirmPassword = By.xpath("//*[text()=\"Confirm Password\"]/ancestor::div[@class=\"oxd-input-group oxd-input-field-bottom-space\"]//input");
     private By saveBtn = By.xpath("//*[@type=\"submit\"]");
     private By optionESS = By.xpath("//*[text()=\"ESS\"]");
     private By optionEnabled = By.xpath("//*[text()=\"Enabled\"]");
