@@ -45,7 +45,8 @@ public class TC_0019_AddCustomer_DD extends BaseClass {
 
    @DataProvider(name = "customers")
     public Object[][] getCustomers() throws IOException {
-        FileInputStream fis = new FileInputStream("C:\\Users\\Dima\\Desktop\\OrangeHRM\\src\\test\\java\\OrangeHPM\\TestData\\customers.xlsx");
+        FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+ "/src/test/java/OrangeHPM/TestData/customers.xlsx");
+       System.out.println(System.getProperty("user.dir"));
         XSSFWorkbook workbook = new XSSFWorkbook(fis);
         Sheet sheet = workbook.getSheet("Sheet");
         String customers[][] = new String[sheet.getLastRowNum()][sheet.getRow(0).getLastCellNum()];

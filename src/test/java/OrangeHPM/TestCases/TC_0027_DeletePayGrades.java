@@ -41,7 +41,7 @@ public class TC_0027_DeletePayGrades extends BaseClass {
     }
 
     public String[][] getGradesToDelete() throws IOException {
-        File file = new File("C:\\Users\\Dima\\Desktop\\OrangeHRM\\src\\test\\java\\OrangeHPM\\TestData\\GradesToDelete.xlsx");
+        File file = new File( System.getProperty("user.dir")+ "/src/test/java/OrangeHPM/TestData/GradesToDelete.xlsx");
         FileInputStream fileInputStream = new FileInputStream(file);
         XSSFWorkbook workbook = new XSSFWorkbook(fileInputStream);
         Sheet sheet = workbook.getSheet("Sheet");

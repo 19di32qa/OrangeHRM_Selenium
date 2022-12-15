@@ -50,7 +50,7 @@ public class TC_0028_AddWorkShift extends BaseClass {
 
     @DataProvider(name = "shifts")
     public Object[][] getData() throws IOException {
-        File file = new File("C:\\Users\\Dima\\Desktop\\OrangeHRM\\src\\test\\java\\OrangeHPM\\TestData\\workShifts.xlsx");
+        File file = new File(System.getProperty("user.dir")+ "/src/test/java/OrangeHPM/TestData/workShifts.xlsx");
         FileInputStream fis = new FileInputStream(file);
         XSSFWorkbook workbook = new XSSFWorkbook(fis);
         Sheet sheet = workbook.getSheet("Sheet");

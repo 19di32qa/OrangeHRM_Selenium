@@ -12,7 +12,7 @@ public class PersonalDetails extends BaseClass{
     public PersonalDetails(WebDriver driver) {
         this.driver = driver;
     }
-    private final By firstName =By.name("firstName");
+    private final By firstName =By.xpath("//input[@placeholder=\"First Name\"]");
     private final By middleName = By.name("middleName");
     private final By lastName = By.name("lastName");
     private final By SaveBTN = By.cssSelector(".oxd-button.oxd-button--medium.oxd-button--secondary.orangehrm-left-space");
@@ -40,7 +40,7 @@ public class PersonalDetails extends BaseClass{
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.presenceOfElementLocated(firstName)).sendKeys(name);
     }
-    public void resetFirstName(String edit) {
+    public void resetFirstName(String edit) throws InterruptedException {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         System.out.println(wait.until(ExpectedConditions.presenceOfElementLocated(firstName)).getAttribute("value"));
         Actions actions = new Actions(driver);

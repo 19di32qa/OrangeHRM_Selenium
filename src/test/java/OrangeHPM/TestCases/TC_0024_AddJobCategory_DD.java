@@ -39,7 +39,7 @@ public class TC_0024_AddJobCategory_DD extends BaseClass {
     }
 
     public String[][] getJobCats() throws IOException {
-        File file = new File("C:\\Users\\Dima\\Desktop\\OrangeHRM\\src\\test\\java\\OrangeHPM\\TestData\\jobCats.xlsx");
+        File file = new File(System.getProperty("user.dir") +"/src/test/java/OrangeHPM/TestData/jobCats.xlsx");
         FileInputStream fis = new FileInputStream(file);
         XSSFWorkbook workbook = new XSSFWorkbook(fis);
         Sheet sheet = workbook.getSheet("Sheet");

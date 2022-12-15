@@ -37,8 +37,6 @@ public class TC_0011_PersonalDetailsEdit extends BaseClass {
         isInputFieldUpdated(personalDetails.getMiddleName(),"Di");
         isInputFieldUpdated(personalDetails.getLastName(),"Colder");
 
-
-
     }
 
     public void resetField(WebElement element) throws InterruptedException {

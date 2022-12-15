@@ -41,7 +41,7 @@ public class TC_0030_JobCategories extends BaseClass {
     }
 
     public String[] getCategories() throws IOException {
-        File file = new File("C:\\Users\\Dima\\Desktop\\OrangeHRM\\src\\test\\java\\OrangeHPM\\TestData\\categories.xlsx");
+        File file = new File(System.getProperty("user.dir") + "/src/test/java/OrangeHPM/TestData/categories.xlsx");
         FileInputStream fis = new FileInputStream(file);
         XSSFWorkbook workbook = new XSSFWorkbook(fis);
         Sheet sheet = workbook.getSheet("Sheet");

@@ -18,12 +18,18 @@ public class EmployeeListPage {
     public void getPage() {
         driver.get(url);
     }
-    private final By employeeName = By.cssSelector(".oxd-autocomplete-wrapper input:first-of-type");
+    private final By employeeName = By.xpath("//*[text()=\"Employee Name\"]/ancestor::div[@class=\"oxd-input-group oxd-input-field-bottom-space\"]//input");
     private final By searchButton = By.cssSelector("button[type=\"submit\"]");
     private final By numberOfFound = By.cssSelector(".orangehrm-horizontal-padding.orangehrm-vertical-padding span");
     private final By deleteIcon = By.cssSelector(".oxd-icon.bi-trash");
     private final By confirmDeleteBtn = By.cssSelector(".oxd-icon.bi-trash.oxd-button-icon");
     private final By editBtn = By.cssSelector(".oxd-icon.bi-pencil-fill");
+    private final By employeeNameOption = By.xpath("//span[text()=\"David  Morris\"]");
+
+    public WebElement getEmployeeNameOption() {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        return wait.until(ExpectedConditions.presenceOfElementLocated(employeeNameOption));
+    }
 
 
     public void setEmployeeName(String name) {
